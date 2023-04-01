@@ -70,6 +70,5 @@ for sid in sub_id:
     for comments in post1.comments.list():
         All_Comments.append(comments.body)
 
-print(All_Comments)
+print('Total posts scraped = ', len(posts))
 print('Total comments scraped = ', (len(All_Comments)))
-print('fleet test')
