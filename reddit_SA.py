@@ -27,7 +27,7 @@ import spacy
 
 # ------------- End of Libraries ---------------#
 
-#-------------- Reddit API Connection ----------------#
+# -------------- Reddit API Connection ----------------#
 
 reddit = praw.Reddit(
     client_id="zw8uC_emsN_GTyOai4v6OQ",
@@ -35,7 +35,7 @@ reddit = praw.Reddit(
     user_agent="ua"
 )
 
-#-------------- Main Code ----------------#
+# -------------- Main Code ----------------#
 
 potential_subreddits = ["pharma", "RaceAndIntelligence", "MixedRaceAndProud", "BadPharma",
                         "genderedracism", "mixedrace", "AccidentalRacism", "racism", "BlackRacism", "Conservative",
@@ -58,6 +58,8 @@ for sreddit in potential_subreddits:
                 None
 
 sub_id = list(data.keys())
+posts = list(data.values())
+
 print(sub_id)
 All_Comments = []
 
