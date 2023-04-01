@@ -66,3 +66,5 @@ for sid in sub_id:
 
 print(All_Comments)
 print('Total comments scraped = ', (len(All_Comments)))
+
+print('it works')
