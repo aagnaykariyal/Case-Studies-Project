@@ -13,6 +13,10 @@ from nltk.corpus import stopwords
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from nltk.tokenize import word_tokenize, RegexpTokenizer  # tokenize words
 
+nltk.download('vader_lexicon')
+nltk.download('punkt')
+nltk.download('stopwords')
+
 # import matplotlib.pyplot as plt
 # %matplotlib inline
 # plt.rcParams["figure.figsize"] = (10, 8) # default plot size
@@ -60,7 +64,6 @@ for sreddit in potential_subreddits:
 sub_id = list(data.keys())
 posts = list(data.values())
 
-print(sub_id)
 All_Comments = []
 
 for sid in sub_id:
@@ -72,3 +75,9 @@ for sid in sub_id:
 
 print('Total posts scraped = ', len(posts))
 print('Total comments scraped = ', (len(All_Comments)))
+
+sample_text = 'Fleet is amazing'
+
+sid = SentimentIntensityAnalyzer()
+
+print(sid.polarity_scores(sample_text))
