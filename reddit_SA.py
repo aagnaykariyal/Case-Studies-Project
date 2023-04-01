@@ -27,11 +27,15 @@ import spacy
 
 # ------------- End of Libraries ---------------#
 
+#-------------- Reddit API Connection ----------------#
+
 reddit = praw.Reddit(
     client_id="zw8uC_emsN_GTyOai4v6OQ",
     client_secret="XJf-l9V2TNGaF9fn6486C0OOEpRplA",
     user_agent="ua"
 )
+
+#-------------- Main Code ----------------#
 
 potential_subreddits = ["pharma", "RaceAndIntelligence", "MixedRaceAndProud", "BadPharma",
                         "genderedracism", "mixedrace", "AccidentalRacism", "racism", "BlackRacism", "Conservative",
