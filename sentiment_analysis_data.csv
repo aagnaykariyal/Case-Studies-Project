@@ -1,390 +1,815 @@
-,neg,neu,pos,compound,label
-0,0.0,1.0,0.0,0.0,neu
-1,0.0,1.0,0.0,0.0,neu
-2,0.0,1.0,0.0,0.0,neu
-3,0.0,1.0,0.0,0.0,neu
-4,0.0,1.0,0.0,0.0,neu
-5,0.0,1.0,0.0,0.0,neu
-6,0.0,1.0,0.0,0.0,neu
-7,0.0,1.0,0.0,0.0,neu
-8,0.0,0.778,0.222,0.6927,pos
-9,0.134,0.814,0.052,-0.9238,neg
-10,0.0,0.918,0.082,0.4927,pos
-11,0.0,1.0,0.0,0.0,neu
-12,0.0,0.692,0.308,0.5994,pos
-13,0.31,0.538,0.152,-0.9001,neg
-14,0.187,0.734,0.079,-0.9836,neg
-15,0.215,0.747,0.038,-0.9918,neg
-16,0.135,0.865,0.0,-0.8418,neg
-17,0.099,0.811,0.09,-0.5084,neg
-18,0.067,0.908,0.024,-0.7792,neg
-19,0.161,0.786,0.053,-0.9928,neg
-20,0.099,0.836,0.065,-0.6072,neg
-21,0.12,0.814,0.065,-0.6249,neg
-22,0.076,0.873,0.051,-0.34,neg
-23,0.0,0.597,0.403,0.6597,pos
-24,0.033,0.967,0.0,-0.0772,neu
-25,0.047,0.816,0.137,0.7003,pos
-26,0.183,0.777,0.04,-0.9689,neg
-27,0.05,0.762,0.188,0.9404,pos
-28,0.0,0.645,0.355,0.5106,pos
-29,0.0,1.0,0.0,0.0,neu
-30,0.0,1.0,0.0,0.0,neu
-31,0.0,1.0,0.0,0.0,neu
-32,0.0,1.0,0.0,0.0,neu
-33,0.171,0.588,0.241,0.3054,pos
-34,0.0,0.622,0.378,0.964,pos
-35,0.063,0.501,0.436,0.9312,pos
-36,0.0,1.0,0.0,0.0,neu
-37,0.079,0.833,0.089,0.2762,pos
-38,0.053,0.878,0.07,-0.1967,neu
-39,0.353,0.647,0.0,-0.8481,neg
-40,0.0,0.877,0.123,0.7089,pos
-41,0.071,0.818,0.111,0.1282,neu
-42,0.0,0.926,0.074,0.6531,pos
-43,0.0,1.0,0.0,0.0,neu
-44,0.039,0.9,0.061,0.5927,pos
-45,0.135,0.709,0.155,0.8556,pos
-46,0.102,0.898,0.0,-0.3818,neg
-47,0.0,0.94,0.06,0.3062,pos
-48,0.094,0.816,0.089,-0.3826,neg
-49,0.053,0.82,0.127,0.9562,pos
-50,0.052,0.818,0.13,0.9775,pos
-51,0.122,0.724,0.154,0.3096,pos
-52,0.068,0.835,0.097,0.1759,neu
-53,0.04,0.916,0.044,0.1263,neu
-54,0.102,0.642,0.255,0.6199,pos
-55,0.247,0.753,0.0,-0.507,neg
-56,0.185,0.502,0.313,0.6219,pos
-57,0.198,0.802,0.0,-0.6899,neg
-58,0.0,1.0,0.0,0.0,neu
-59,0.032,0.875,0.093,0.7329,pos
-60,0.0,0.956,0.044,0.09,neu
-61,0.0,0.887,0.113,0.8271,pos
-62,0.0,1.0,0.0,0.0,neu
-63,0.051,0.828,0.121,0.9478,pos
-64,0.06,0.87,0.07,0.1796,neu
-65,0.068,0.819,0.113,0.5106,pos
-66,0.035,0.798,0.167,0.7436,pos
-67,0.067,0.748,0.185,0.8622,pos
-68,0.043,0.677,0.28,0.9447,pos
-69,0.089,0.738,0.173,0.4389,pos
-70,0.323,0.677,0.0,-0.7346,neg
-71,0.173,0.827,0.0,-0.7703,neg
-72,0.0,1.0,0.0,0.0,neu
-73,0.091,0.746,0.163,0.5719,pos
-74,0.106,0.677,0.217,0.5574,pos
-75,0.134,0.866,0.0,-0.7964,neg
-76,0.233,0.767,0.0,-0.8225,neg
-77,0.0,1.0,0.0,0.0,neu
-78,0.0,1.0,0.0,0.0,neu
-79,0.0,1.0,0.0,0.0,neu
-80,0.0,1.0,0.0,0.0,neu
-81,0.0,1.0,0.0,0.0,neu
-82,0.093,0.878,0.029,-0.6249,neg
-83,0.127,0.695,0.178,0.5106,pos
-84,0.048,0.741,0.21,0.8176,pos
-85,0.166,0.788,0.046,-0.897,neg
-86,0.238,0.762,0.0,-0.8727,neg
-87,0.095,0.757,0.147,0.706,pos
-88,0.0,0.84,0.16,0.7096,pos
-89,0.065,0.865,0.07,0.0516,neu
-90,0.0,0.824,0.176,0.765,pos
-91,0.02,0.878,0.102,0.7906,pos
-92,0.0,0.895,0.105,0.8555,pos
-93,0.07,0.823,0.106,0.924,pos
-94,0.0,0.885,0.115,0.5267,pos
-95,0.056,0.829,0.115,0.8294,pos
-96,0.0,1.0,0.0,0.0,neu
-97,0.098,0.639,0.263,0.4816,pos
-98,0.0,0.761,0.239,0.296,pos
-99,0.1,0.811,0.09,0.0348,neu
-100,0.036,0.879,0.084,0.7469,pos
-101,0.19,0.81,0.0,-0.2617,neg
-102,0.0,0.96,0.04,0.2023,pos
-103,0.066,0.807,0.127,0.2732,pos
-104,0.0,0.727,0.273,0.7841,pos
-105,0.058,0.841,0.101,0.6369,pos
-106,0.0,1.0,0.0,0.0,neu
-107,0.0,1.0,0.0,0.0,neu
-108,0.0,1.0,0.0,0.0,neu
-109,0.216,0.784,0.0,-0.5267,neg
-110,0.093,0.878,0.029,-0.6249,neg
-111,0.0,1.0,0.0,0.0,neu
-112,0.0,0.0,1.0,0.2732,pos
-113,0.0,0.731,0.269,0.7089,pos
-114,0.163,0.801,0.036,-0.9806,neg
-115,0.156,0.676,0.168,0.4404,pos
-116,0.045,0.858,0.097,0.7717,pos
-117,0.099,0.901,0.0,-0.4724,neg
-118,0.0,1.0,0.0,0.0,neu
-119,0.0,0.76,0.24,0.743,pos
-120,0.168,0.621,0.211,0.1045,neu
-121,0.226,0.64,0.134,-0.3774,neg
-122,0.0,0.763,0.237,0.4215,pos
-123,0.215,0.714,0.071,-0.8575,neg
-124,0.118,0.882,0.0,-0.3134,neg
-125,0.042,0.935,0.024,-0.5271,neg
-126,0.0,1.0,0.0,0.0,neu
-127,0.054,0.798,0.148,0.6724,pos
-128,0.079,0.887,0.034,-0.7495,neg
-129,0.086,0.765,0.148,0.9752,pos
-130,0.044,0.784,0.172,0.9274,pos
-131,0.0,1.0,0.0,0.0,neu
-132,0.0,0.833,0.167,0.8957,pos
-133,0.135,0.792,0.073,-0.9604,neg
-134,0.0,1.0,0.0,0.0,neu
-135,0.062,0.856,0.082,0.1272,neu
-136,0.116,0.848,0.036,-0.6345,neg
-137,0.075,0.794,0.131,0.5584,pos
-138,0.046,0.818,0.135,0.6983,pos
-139,0.072,0.833,0.095,0.1531,neu
-140,0.049,0.821,0.13,0.9813,pos
-141,0.063,0.709,0.228,0.9937,pos
-142,0.014,0.878,0.108,0.967,pos
-143,0.0,1.0,0.0,0.0,neu
-144,0.101,0.767,0.132,0.4964,pos
-145,0.055,0.892,0.053,-0.0258,neu
-146,0.112,0.888,0.0,-0.3679,neg
-147,0.014,0.909,0.077,0.9503,pos
-148,0.056,0.79,0.154,0.5798,pos
-149,0.091,0.909,0.0,-0.3612,neg
-150,0.0,1.0,0.0,0.0,neu
-151,0.0,0.851,0.149,0.7351,pos
-152,0.027,0.784,0.189,0.9609,pos
-153,0.178,0.78,0.042,-0.6351,neg
-154,0.022,0.965,0.014,-0.0258,neu
-155,0.265,0.684,0.051,-0.94,neg
-156,0.079,0.833,0.089,-0.1431,neu
-157,0.137,0.819,0.044,-0.8854,neg
-158,0.104,0.896,0.0,-0.1901,neu
-159,0.0,1.0,0.0,0.0,neu
-160,0.066,0.863,0.071,0.0772,neu
-161,0.0,1.0,0.0,0.0,neu
-162,0.0,1.0,0.0,0.0,neu
-163,0.213,0.787,0.0,-0.5574,neg
-164,0.0,1.0,0.0,0.0,neu
-165,0.036,0.824,0.14,0.9576,pos
-166,0.192,0.651,0.157,-0.6347,neg
-167,0.192,0.706,0.102,-0.7184,neg
-168,0.0,0.881,0.119,0.3915,pos
-169,0.053,0.892,0.055,0.3051,pos
-170,0.0,1.0,0.0,0.0,neu
-171,0.0,0.733,0.267,0.4588,pos
-172,0.0,1.0,0.0,0.0,neu
-173,0.0,1.0,0.0,0.0,neu
-174,0.053,0.928,0.019,-0.6353,neg
-175,0.0,0.947,0.053,0.7096,pos
-176,0.0,0.877,0.123,0.7747,pos
-177,0.057,0.926,0.017,-0.8126,neg
-178,0.038,0.933,0.029,-0.1787,neu
-179,0.0,0.967,0.033,0.1901,neu
-180,0.148,0.797,0.054,-0.897,neg
-181,0.017,0.878,0.104,0.7607,pos
-182,0.034,0.847,0.12,0.7088,pos
-183,0.017,0.901,0.082,0.9315,pos
-184,0.077,0.842,0.081,0.0258,neu
-185,0.046,0.876,0.078,0.68,pos
-186,0.0,1.0,0.0,0.0,neu
-187,0.0,0.84,0.16,0.9382,pos
-188,0.045,0.923,0.032,-0.1901,neu
-189,0.027,0.94,0.034,0.1139,neu
-190,0.0,0.903,0.097,0.4215,pos
-191,0.04,0.797,0.163,0.95,pos
-192,0.17,0.742,0.088,-0.3182,neg
-193,0.093,0.878,0.029,-0.6249,neg
-194,0.062,0.938,0.0,-0.6808,neg
-195,0.02,0.866,0.114,0.9944,pos
-196,0.0,0.894,0.106,0.3612,pos
-197,0.0,0.951,0.049,0.4012,pos
-198,0.073,0.8,0.127,0.701,pos
-199,0.12,0.88,0.0,-0.8102,neg
-200,0.024,0.899,0.077,0.7591,pos
-201,0.248,0.459,0.294,0.128,neu
-202,0.123,0.877,0.0,-0.4215,neg
-203,0.0,0.967,0.033,0.2144,pos
-204,0.0,0.769,0.231,0.2732,pos
-205,0.0,1.0,0.0,0.0,neu
-206,0.195,0.658,0.147,-0.6524,neg
-207,0.0,1.0,0.0,0.0,neu
-208,0.096,0.783,0.121,0.7332,pos
-209,0.103,0.852,0.045,-0.6796,neg
-210,0.0,0.828,0.172,0.8047,pos
-211,0.097,0.764,0.139,0.4545,pos
-212,0.148,0.786,0.066,-0.4282,neg
-213,0.0,1.0,0.0,0.0,neu
-214,0.026,0.955,0.019,-0.1531,neu
-215,0.105,0.602,0.293,0.5423,pos
-216,0.196,0.804,0.0,-0.296,neg
-217,0.059,0.941,0.0,-0.1114,neu
-218,0.0,1.0,0.0,0.0,neu
-219,0.14,0.86,0.0,-0.7882,neg
-220,0.0,1.0,0.0,0.0,neu
-221,0.0,0.0,1.0,0.4215,pos
-222,0.218,0.782,0.0,-0.4714,neg
-223,0.25,0.632,0.119,-0.9753,neg
-224,0.0,1.0,0.0,0.0,neu
-225,0.0,1.0,0.0,0.0,neu
-226,0.0,1.0,0.0,0.0,neu
-227,0.0,1.0,0.0,0.0,neu
-228,0.0,1.0,0.0,0.0,neu
-229,0.209,0.541,0.25,0.1531,neu
-230,0.0,0.775,0.225,0.4404,pos
-231,0.0,1.0,0.0,0.0,neu
-232,0.176,0.824,0.0,-0.128,neu
-233,0.0,1.0,0.0,0.0,neu
-234,0.0,1.0,0.0,0.0,neu
-235,0.074,0.833,0.093,0.1531,neu
-236,0.0,0.829,0.171,0.4767,pos
-237,0.147,0.853,0.0,-0.5875,neg
-238,0.0,0.92,0.08,0.2732,pos
-239,0.0,0.5,0.5,0.7178,pos
-240,0.265,0.735,0.0,-0.2023,neg
-241,0.0,0.562,0.438,0.5994,pos
-242,0.0,1.0,0.0,0.0,neu
-243,0.0,1.0,0.0,0.0,neu
-244,0.0,1.0,0.0,0.0,neu
-245,0.407,0.593,0.0,-0.4106,neg
-246,0.0,0.843,0.157,0.3818,pos
-247,0.0,1.0,0.0,0.0,neu
-248,0.0,1.0,0.0,0.0,neu
-249,0.0,1.0,0.0,0.0,neu
-250,0.0,1.0,0.0,0.0,neu
-251,0.0,0.653,0.347,0.4926,pos
-252,0.0,1.0,0.0,0.0,neu
-253,0.0,0.531,0.469,0.6486,pos
-254,0.167,0.833,0.0,-0.34,neg
-255,0.0,1.0,0.0,0.0,neu
-256,0.104,0.896,0.0,-0.296,neg
-257,0.0,0.0,0.0,0.0,neu
-258,0.0,0.633,0.367,0.4404,pos
-259,0.078,0.779,0.143,0.4479,pos
-260,0.0,1.0,0.0,0.0,neu
-261,0.054,0.849,0.097,0.3018,pos
-262,0.0,1.0,0.0,0.0,neu
-263,0.266,0.734,0.0,-0.4404,neg
-264,0.192,0.532,0.276,0.2006,pos
-265,0.266,0.598,0.136,-0.34,neg
-266,0.234,0.509,0.257,-0.0387,neu
-267,0.25,0.632,0.119,-0.9753,neg
-268,0.0,1.0,0.0,0.0,neu
-269,0.0,1.0,0.0,0.0,neu
-270,0.25,0.632,0.119,-0.9753,neg
-271,0.0,0.628,0.372,0.7964,pos
-272,0.0,0.577,0.423,0.296,pos
-273,0.16,0.494,0.346,0.3612,pos
-274,0.0,0.737,0.263,0.3612,pos
-275,0.0,1.0,0.0,0.0,neu
-276,0.0,1.0,0.0,0.0,neu
-277,0.0,1.0,0.0,0.0,neu
-278,0.0,1.0,0.0,0.0,neu
-279,0.127,0.873,0.0,-0.2244,neg
-280,0.0,1.0,0.0,0.0,neu
-281,0.116,0.884,0.0,-0.3612,neg
-282,0.0,1.0,0.0,0.0,neu
-283,0.086,0.557,0.357,0.8934,pos
-284,0.0,1.0,0.0,0.0,neu
-285,0.412,0.588,0.0,-0.1027,neu
-286,0.0,0.536,0.464,0.7774,pos
-287,0.517,0.483,0.0,-0.5064,neg
-288,0.091,0.909,0.0,-0.0516,neu
-289,0.0,1.0,0.0,0.0,neu
-290,0.0,1.0,0.0,0.0,neu
-291,0.121,0.773,0.105,-0.0754,neu
-292,0.0,1.0,0.0,0.0,neu
-293,0.0,0.844,0.156,0.4515,pos
-294,0.0,1.0,0.0,0.0,neu
-295,0.0,0.82,0.18,0.296,pos
-296,0.0,0.0,1.0,0.4215,pos
-297,0.0,0.72,0.28,0.765,pos
-298,0.388,0.612,0.0,-0.4215,neg
-299,0.0,1.0,0.0,0.0,neu
-300,0.148,0.775,0.077,-0.7457,neg
-301,0.0,1.0,0.0,0.0,neu
-302,0.0,1.0,0.0,0.0,neu
-303,0.0,0.607,0.393,0.6688,pos
-304,0.0,0.874,0.126,0.0772,neu
-305,0.0,1.0,0.0,0.0,neu
-306,0.148,0.701,0.151,0.0258,neu
-307,0.351,0.649,0.0,-0.6597,neg
-308,0.296,0.704,0.0,-0.7096,neg
-309,0.0,1.0,0.0,0.0,neu
-310,0.177,0.663,0.16,-0.1531,neu
-311,0.0,1.0,0.0,0.0,neu
-312,0.188,0.725,0.087,-0.7981,neg
-313,0.0,1.0,0.0,0.0,neu
-314,0.0,0.852,0.148,0.7083,pos
-315,0.052,0.844,0.104,0.8646,pos
-316,0.13,0.507,0.362,0.4939,pos
-317,0.155,0.504,0.34,0.5819,pos
-318,0.261,0.679,0.06,-0.8126,neg
-319,0.333,0.667,0.0,-0.6124,neg
-320,0.0,1.0,0.0,0.0,neu
-321,0.0,1.0,0.0,0.0,neu
-322,0.0,1.0,0.0,0.0,neu
-323,0.06,0.94,0.0,-0.2263,neg
-324,0.073,0.879,0.048,-0.5337,neg
-325,0.0,1.0,0.0,0.0,neu
-326,0.252,0.748,0.0,-0.5768,neg
-327,0.055,0.667,0.278,0.8537,pos
-328,0.0,0.892,0.108,0.8276,pos
-329,0.124,0.76,0.116,-0.0516,neu
-330,0.165,0.746,0.089,-0.8073,neg
-331,0.0,0.853,0.147,0.2732,pos
-332,0.068,0.813,0.119,0.7673,pos
-333,0.245,0.619,0.136,-0.8391,neg
-334,0.183,0.707,0.11,-0.4986,neg
-335,0.0,0.758,0.242,0.4939,pos
-336,0.186,0.675,0.139,-0.0082,neu
-337,0.122,0.836,0.042,-0.6369,neg
-338,0.0,0.606,0.394,0.5994,pos
-339,0.066,0.841,0.093,0.0516,neu
-340,0.0,0.886,0.114,0.4973,pos
-341,0.0,1.0,0.0,0.0,neu
-342,0.0,0.826,0.174,0.2732,pos
-343,0.099,0.89,0.011,-0.8718,neg
-344,0.0,1.0,0.0,0.0,neu
-345,0.104,0.728,0.168,0.3004,pos
-346,0.444,0.556,0.0,-0.6124,neg
-347,0.143,0.857,0.0,-0.6124,neg
-348,0.324,0.676,0.0,-0.802,neg
-349,0.234,0.625,0.141,-0.6126,neg
-350,0.371,0.629,0.0,-0.9476,neg
-351,0.204,0.796,0.0,-0.7096,neg
-352,0.409,0.591,0.0,-0.8225,neg
-353,0.471,0.529,0.0,-0.8658,neg
-354,0.0,0.803,0.197,0.4019,pos
-355,0.404,0.596,0.0,-0.91,neg
-356,0.235,0.765,0.0,-0.6124,neg
-357,0.0,0.7,0.3,0.4588,pos
-358,0.406,0.594,0.0,-0.6249,neg
-359,0.175,0.566,0.259,0.2023,pos
-360,0.339,0.661,0.0,-0.6249,neg
-361,0.073,0.661,0.266,0.6428,pos
-362,0.0,1.0,0.0,0.0,neu
-363,0.0,1.0,0.0,0.0,neu
-364,0.133,0.867,0.0,-0.3182,neg
-365,0.0,1.0,0.0,0.0,neu
-366,0.0,1.0,0.0,0.0,neu
-367,0.227,0.416,0.357,0.4781,pos
-368,0.0,1.0,0.0,0.0,neu
-369,0.73,0.27,0.0,-0.6597,neg
-370,0.0,0.351,0.649,0.5719,pos
-371,0.369,0.631,0.0,-0.6249,neg
-372,0.369,0.631,0.0,-0.6249,neg
-373,0.502,0.498,0.0,-0.9022,neg
-374,0.0,1.0,0.0,0.0,neu
-375,0.451,0.549,0.0,-0.6249,neg
-376,0.451,0.549,0.0,-0.6249,neg
-377,0.337,0.663,0.0,-0.7269,neg
-378,0.369,0.631,0.0,-0.6249,neg
-379,0.335,0.541,0.124,-0.5994,neg
-380,0.233,0.581,0.186,-0.2023,neg
-381,0.577,0.423,0.0,-0.6249,neg
-382,0.4,0.6,0.0,-0.6124,neg
-383,0.0,1.0,0.0,0.0,neu
-384,0.246,0.754,0.0,-0.8689,neg
-385,0.358,0.642,0.0,-0.891,neg
-386,0.581,0.419,0.0,-0.8079,neg
-387,0.0,0.937,0.063,0.3182,pos
-388,0.154,0.736,0.109,-0.2688,neg
+,neg,neu,pos,compound,title,label
+0,0.0,1.0,0.0,0.0,hi,neu
+1,0.0,1.0,0.0,0.0,Hi,neu
+2,0.0,1.0,0.0,0.0,sup guys,neu
+3,0.0,1.0,0.0,0.0,Hey stud,neu
+4,0.0,1.0,0.0,0.0,hi,neu
+5,0.0,1.0,0.0,0.0,Heyy,neu
+6,0.0,1.0,0.0,0.0,hellure,neu
+7,0.0,1.0,0.0,0.0,sup,neu
+8,0.0,0.778,0.222,0.6927,Saying you can't be racist because your partner is Asian is like saying you can't be sexist because your partner is female. ,pos
+9,0.134,0.814,0.052,-0.9238,"Some of the most racist white people I know are married to Asians. Including white women married to Asian men. The AMWF thing is thought of too highly on Reddit. And the WMAF thing is hated too much on Reddit. There may be some truth to what they're saying - but it's overblown. Nothing is in black and white. Sure, AMWF kids may be more well-adjusted in general than WMAF kids. But not all are, and so many AMWF marriages end in divorce. And I know of WF's married to AMs who are the nastiest, most racist things ever. And despite being married for so many years to an AM - still understands nothing, nor cares, about Asian culture or the difficulties Asians go through. 
+
+",neg
+10,0.0,0.918,0.082,0.4927,"I can agree with this to some extent as that sums up my parents. That said, in general amwf is a lot less loaded and toxic then wmaf. But that doesn't mean we can't be critical of amwf when it is toxic.
+
+Similar situation when it comes to bmwf and wmbf. ",pos
+11,0.0,1.0,0.0,0.0,The study you're referring to about amwf has a really small sample size.,neu
+12,0.0,0.692,0.308,0.5994,"Hey, TheRedDragon88. Next time you [steal](http://archive.is/XPNN8) from me, make sure to credit me. 
+ ",pos
+13,0.31,0.538,0.152,-0.9001,"My experiences with racism are the following:
+
+• I've been called various ethnic slurs. 
+• I've been attacked and harassed over my skin color and nationality. 
+
+• I've had solid complaints against racism dismissed because I was told no one cared. 
+
+• White people treat me like I'm expendable.",neg
+14,0.215,0.747,0.038,-0.9918,"I said a lot of dumb racist shit when I was younger because both WASPy folks and Latinos had gaslit me my entire life into thinking that I didn't experience at least casual racism from both groups on a daily basis (getting beaten up, hearing hate speech from both groups, constant racial gatekeeping). 
+  Because I wasn't really allowed to understand what I was happening to me I began to see the racism I experienced as harmless and began blaming myself for ""acting too white"" or ""acting too Mexican"". Being less considerate with my words, commonly using slurs and hateful rhetoric that I did not identify with in jokes. 
+My brain knew this was wrong but the rules imposed by everyone else around told me that it was normal and that if i didn't accept that then I would never fit in anywhere. 
+  This led to me denying being white or Latino depending on who I hung out with and greatly contributed to a mild psychotic break I had in March 2020 roughly a year after graduating high school.
+ I don't hold racial prejudices and can't really imagine a world where I would but some of the bullshit I thought was normal as a kid would suggest otherwise and that leaves a permanent stain on my psyche.
+
+Tldr: experiencing racism made me a mildly racist schizo and I'm upset",neg
+15,0.135,0.865,0.0,-0.8418,"It was worse when I was younger, or at least people were more openly racist to me when I was a child. It mostly came from asian and black people having a problem with me being mixed. I was one of only two or three mixed people in my entire school.
+
+For me the experience with racism is painful because people assume when you're mixed that you don't experience it at all. But I experienced things that my monoracial peers never did.",neg
+16,0.187,0.734,0.079,-0.9836,"My experience: Too black for white people, too white for black people. I find myself code switching on a sliding scale for whoever I’m dealing with and it’s exhausting
+
+With respect to what your gf said, she isn’t exactly wrong (if you’re from the US), but there is some nuance to be had there. On an individual basis, of course any individual can be racist toward any other individual.
+
+However, white people engaging in racist acts against a minority group hits a lot harder because there are systemic systems built from the ground up to benefit them at the expense of every other race. White racism towards minorities is reinforced by institutions at the societal, state, and federal level.
+
+That’s why there is no equivalent to the N word for white people. It sort of doesn’t matter if a black person is racist on a grand scale, because as a whole, black people are disenfranchised and oppressed by the vast majority of existing institutions.
+
+When people say ‘black people cant be racist’, it means that black individuals being racist are such without systemic reinforcement, which ultimately is toothless in the face of a world that penalizes their existence while simultaneously rewarding white existence.
+
+All that said, I’m sorry your feelings were hurt. Colorism is a huge issue in the black community.",neg
+17,0.099,0.811,0.09,-0.5084,"In the past, I got called a myriad of black and Asian slurs despite being black and Mexican and it honestly is more offensive to me when they get it wrong. Like double the insult.
+
+People say openly racist things to me in a light-hearted manner as if I'll agree.
+
+I used to live in a rural town where it was the worst. A few white men in a truck threw full beer cans at me while screaming slurs, my neighbor told me not to approach their house and displayed their shotgun, customer service reps in grocery stores and gas stations and restuarants did not speak to me and sometimes outright did not serve me. I once went to a restuarant where I had to stand up and find the server each time I wanted something and they still took 15 mins to bring every little thing like the menu, water, take my order and so on. I got followed in the grocery store as if I was stealing when I wasn't. 
+
+My experience is usually just that of being treated like I'm less than other humans. Surprisingly though I don't let any of it get to me. If you hate me for an arbitrary reason like my skin color, not only is that your problem, but I find it silly seeing as there are so many real and valid reasons to hate a person. I just don't like feeling unsafe and as a relatively small black and Mexican woman it's pretty easy to make me feel unsafe.",neg
+18,0.161,0.786,0.053,-0.9928,"I am about 50% white and 50%black according to my 23andMe and I grew up in white neighborhoods.
+
+My experiences are very different from yours apparently because the vast majority of racism I got was from non black people. Most of the racism from black people was othering.  Letting me know that I'm not included because of how I talk and the music I listen to.  I don't code switch. I never have.
+
+The most racist black person I knew was a girl who just bullied the s*** out of me.  Called me sell out and Uncle Tom all the time but the thing is eventually she asked me out. I was not even kind of attracted to her. Her friend eventually told me that she just had a giant crush on me and that is how she dealt with it.
+
+The thing about black people is you might be thinking your experiencing racism when you're just getting the experience that black people sometimes give each other.  
+
+One thing all black people in this country share is experience. Especially the experience of not having the privilege of walking around and never thinking about your race. It has to be on our mind for survival.  This country gives a lot of immigrants this last place avoidance mentality and black people are always the ones in last place.
+
+The kind of racism that I got from non black people was very different. It went from just uninformed ignorance, othering and curiosity to ""your kind doesn't deserve to exist"".   In the middle was the absurd racism that I got from people who weren't even from America but felt they were more American and ""white"" despite being from Central America or East Asia.
+
+Don't ever forget how weird it is to be black in America. This country fought a war specifically to enslave people who had any African ancestry. The other side lost and everyone stopped talking about it until about the 1910s when everything changed. Suddenly those people were being celebrated and they are still celebrated today. There are still nine military bases named after Confederate soldiers in America. 9 military bases named after men who fought to keep African people enslaved. 
+
+Being a black American is weird as f***.",neg
+19,0.099,0.836,0.065,-0.6072,">I get the usual, ""where are you from"", (translation: what are you so i know how to treat you) 
+
+I ask this question of every new acquaintance regardless of their appearance because it's a good conversation starter...so maybe don't read too far into it? 
+
+Ironically, my worst experiences of racism invariably come from educated white liberals who tell me that I'm too white-looking to claim to be a minority (because they're the gatekeepers of who can claim to be what?)",neg
+20,0.12,0.814,0.065,-0.6249,"I look like indians/Pakistanis, and 99% of racism I get comes from foreigners and minorities (they are the majority here) 
+
+In many countries I noticed the same thing,  in Europe for example only black security will follow me in stores never a white 
+
+Or in Malaysia/Singapore, only a Chinese person will try to make a problem with me or refuse to serve me never a Malay 
+
+Someone should study such a behavior among minorities.",neg
+21,0.067,0.908,0.024,-0.7792,"I'm half white and half Chinese. To whites I look 100% Chinese, and to everyone else I either look mixed or just white. All of the ""negative"" racism I've experienced has been from whites. Mostly white women. They assume that I am being malicious, unreasonable, and/or duplicitous and then listen only for confirmation of their biases. The ""misunderstandings"" I've had with white women have been wild. I used to think it was just me, something I was doing wrong, but recently I had an experience where I got to watch a whole lot of white women do the identical thing to an entire group of POC while bystanders kept saying ""these POC are being very polite and clear? I don't understand how you could think that's what they said, they literally said the opposite?"", and I saw it for what it was.
+
+I've experienced ""positive"" racism (fetishization) from people of all colors and genders, even other wasians.",neg
+22,0.0,1.0,0.0,0.0,[removed],neu
+23,0.076,0.873,0.051,-0.34,Well my white family are Trump supporters. Boat parade with flags type. My dad cheated on my mom with some lady from work. Moved in the house next door with the new girl. My whole white family cut HER off. Remember walking in on my grandma and dad talking about doctors and my grandma saying she'd never go to a black doctor and wondering why. For some reason thats stuck with me for years. There was never anyone black aside from my mom at family gatherings. I never noticed until i got older.,neg
+24,0.0,0.597,0.403,0.6597,Everyone wants to feel like they're better than everyone else,pos
+25,0.093,0.878,0.029,-0.6249,"Your account is too new, or hasn't enough karma.  Your submission has been temporarily held up for review by the moderators as a precaution to avoid spam, trolls, and bad-faith arguments.
+
+Human moderators review these flagged posts and comments daily and will generally approve them, provided they abide by this sub's rules. 
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/mixedrace) if you have any questions or concerns.*",neg
+26,0.033,0.967,0.0,-0.0772,OP I’m sorry for what you’re going through and you are more than likely to vent about mixed race related issues in our weekly rent discussion thread. This appears to be more about preferences so going to lock comments.,neu
+27,0.047,0.816,0.137,0.7003,"My mom a beautiful latina/indigenous looking woman, fetishized white men. She told us so and that’s why she married my dad. He was the only white passing Latino in their small city and she snapped him up. She said she didn’t want to have little indios running around like her sisters and brothers did. 
+
+
+It is definitely a thing and it makes a shitty conversation to have with your parents.",pos
+28,0.183,0.777,0.04,-0.9689,"Hi all, my family is completely economically distressed due to poor financial decisions which has then caused marital strife with my parents. 
+
+Can you all please agree with me this a 100% race fetish issue?
+
+Broski - not everything is a race issue.  I’m not saying money buys happiness, but goddamn the lack of it causes the majority of problems.
+
+Edit:
+
+I’m not saying there aren’t race issues. Otherwise this subreddit wouldn’t exist.  I’m saying the problems for THIS particular circumstance can be attributed mostly to financial hardship, yet, OP thinks it’s due to a race fetish…it’s just kinda the insanity you see in our politics right now where we can’t even unite under base class issues because everything must be seen through a racialized lens.",neg
+29,0.05,0.762,0.188,0.9404,"race fetish or preference? Your parents sound like they are going through what a lot of other couples go through that is totally unrelated to ethnicity and I'm having trouble understanding the correlation or ""race fetish"" with their issues. I was unhappy with home life and moved out at 17 after saving enough money for an airplane ticket and an apartment. When things suck you gotta do what ya gotta do sometimes. It's most definitely not going to be the easiest thing to do that is for sure, but is anything that is worth it ever easy? I wish you luck.",pos
+30,0.0,0.645,0.355,0.5106,The colorist mentality was strong with her.,pos
+31,0.0,1.0,0.0,0.0,Jesus,neu
+32,0.0,1.0,0.0,0.0,"haven't seen you on this sub in a while, amigo!",neu
+33,0.0,1.0,0.0,0.0,Yup.,neu
+34,0.0,1.0,0.0,0.0,"For context my father was the exact opposite. Even though he was half white/Latino he was very much pro Latino. He would do marches in the 60’ and 70’s for migrant farm workers rights. Had the FBI keep tabs on him because he had joined the Brown Berets. Got a masters degree in Spanish. 
+
+
+In the end my mom married the most Mexican white Latino you could find.",neu
+35,0.171,0.588,0.241,0.3054,"Hey good to see you!  How’ve you been?  Yeah just been busy IRL, got involved in local NYC politics, work, family etc.  but hey ready to fire bad hot takes when I can :)",pos
+36,0.0,0.622,0.378,0.964,"Lol, good to see you too! I'm doing all right, I can't believe the schoolyear is already almost over... but I'm so ready for summer! good for you being busy, sounds like you are doing good things with your life!",pos
+37,0.063,0.501,0.436,0.9312,"Yeah can’t complain, life’s been pretty good!  And yes on Summer!!!  I need need more vitamin D (aka sunlight) in my life, then I’ll be a less salty redditor haha",pos
+38,0.0,1.0,0.0,0.0,don't we all! 😂,neu
+39,0.079,0.833,0.089,0.2762,"My experience is similar to what u/east-hemi-halfie said. I'm part Chinese. When people would ask me what I was and I would say 'part Chinese' it would almost always be followed with some variation of ""So that's why you're so smart!"" and ""Do you have tiger-parents?"". I noticed people would make jokes about 'slitty eyes' (not my words) around me only once they knew I was part Chinese and then feign innocence when I told them to stop. Usually, they would say, ""You don't have slitty eyes so why are you offended?"" 
+
+Plus the stereotypical ""ching chong"" jokes would come up.
+
+There's also a lot of stereotypes about Chinese people eating bats, being dirty, that we're all communists and evil. I wholeheartedly believe people are disappointed when they realise the Asian I'm mixed with is Chinese, rather than South Korean or Japanese. People always look so disappointed when I say, ""No, I'm Chinese"" and then they tend to list whatever stereotypes they can think of.
+
+In recent years people have asked me if I wished I was something else and I find that pretty upsetting. There's nothing wrong with being Chinese.
+
+From other Chinese people, well they have a tendency to not view 'mixed Chinese' people as Chinese at all. So the few Chinese friends I had growing up either hid their friendship with me from their parents or were actively told to stop talking to me once their parents found out. It made me feel very excluded from the small Chinese community around me. 
+
+One of my earliest friends lived right beside me - she's Chinese. We still live side by side and after her dad told her not to talk to me anymore, she hasn't since. It's been over a decade since then, close to two decades actually.",pos
+40,0.053,0.878,0.07,-0.1967,"Assuming that your question is regarding what kind of racism mixed Asians have encountered, my biggest ones have been in regards to my intelligence and my looks. When I disclose that I am half Chinese (the other and most obvious half being white), I often get the response of “Oh, well that’s why you’re so smart!” or “that’s why you’re so pretty!” Also, I’ve come across people doing the whole “ching chong” thing to me when I say I’m Chinese.",neu
+41,0.353,0.647,0.0,-0.8481,Black/Asian and I can’t recall ever experiencing racism for being Asian. I have experienced racism for being black tho.,neg
+42,0.0,0.877,0.123,0.7089,"Any one else seem to notice that us mixed Asians are able to easily identify each other as mixed when meeting?
+
+I really enjoy that camaraderie, especially because everyone else just tries to guess what monorace you are without even considering you might be mixed.",pos
+43,0.071,0.818,0.111,0.1282,"I’ve experienced more Racism from my Korean family members and friends then I have any other race. I’m black, white and Korean. I’ve never experience racism for being Asian but I have for being half black",neu
+44,0.0,0.926,0.074,0.6531,"I got told once I don't look ""Asian"" enough to be considered Asian. I get mistakened a lot for Hispanic/Latina. Like what? Are all of us supposed to have slanted eyes and yellow skin? Tf? Also one time, there was someone that thought I was half white because my mom is Filipino and I mentioned that my dad's in the Army. My dad is actually Palauan and joined the Army; Palau has a huge military presence",pos
+45,0.0,1.0,0.0,0.0,I've been asked far too many times whether I eat dogs... 🙄,neu
+46,0.039,0.9,0.061,0.5927,"I'm half ethnic Chinese and French (or White for some people) female. I grew up in a predominantly Asian community and have always viewed myself as Asian. However, at a quick glance, I don't look Asian to a lot of people due to my bright hair and pale complexion from not spending time in the sun. 
+
+The aggressions I've encountered were that I'm not Asian enough. My French mum isn't Asian, so I couldn't possibly have the Asian experience because my dad is. I always found it to be BS since I'm 4th generation from the mainland, but immigrated to America. I get a lot of physical commentary from my paternal grandmother like about how my eyes are big, or even talking as if I couldn't possibly understand being Asian. I've also been fetishized for being mixed.
+
+Overall, I think my environment has made it so I haven't had to explicitly deal with ignorant people about my Asian side. My experiences have mostly been with Asian people gatekeeping what it means to be Asian. I think it's a fear of cultural appropriation or non-mixed Asians trying to grasp/reclaim their heritage. How can someone who looks like me say they're Asian, when they themselves are feeling like a minority? But then again, I don't know. I just know who I am, and that's all I can do.",pos
+47,0.135,0.709,0.155,0.8556,"(cracks knuckles) let's get typinggg
+
+Half Korean half white. I'm American and grew up in an area with very few Asians, got the usual spread of racist comments about my intelligence/""ewww kimchi""/etc. Moved to LA and wasn't Korean enough for Koreans, not that surprising. By far the most annoying thing has been the sudden influx of non-Korean Koreaboos with the large hallyu wave in the last few years. I have no idea why this is, but upon realizing I'm Korean these types consistently make obnoxious comments like ""oh I didn't think so"" ""oh really? You look white to me"" like...thanks for sharing. I guess they don't like being challenged on their perceived notions of what a Korean person should look like lmao. I have gotten pretty good at sniffing these types out, so provided I'm not in a work/school environment I can usually just avoid them at least.
+
+The one thing I can always count on no matter where I am is that I'm always Asian enough for the freaks with yellow fever which is so, so annoying in tandem with my ethnic presentation being questioned by kboos/people who think I'm trying to fake my heritage for whatever reason lol. Surprisingly it's never been other Asians who have been suspicious of me as I always fear that will happen one day, only non-Asians lmao",pos
+48,0.102,0.898,0.0,-0.3818,"My white side would tell me to not tell people I'm Asian because it's embarrassing. Or when I speak Tagalog to not speak ""China man"" 🙃",neg
+49,0.0,0.94,0.06,0.3062,"My mom is Vietnamese while my dad is Japanese/First Nation. Of course, I get ""you are so smart because you are Asian."" But also, there are times with combining different Asian slurs that people use on me.",pos
+50,0.094,0.816,0.089,-0.3826,"My first name is Indian so the first experience dealing with racism from folks usually comes in the form of garbage reactions to my name. Often some combination of being forced to teach them how to say my name even though it truly isn't that hard and then followed up by something like ""oh wow that's so exotic. I don't think I can say that can I call you \*shortened version of my name which is a common western name\*""
+
+ I'm often assumed to be fully white so I also often hear the type of racist garbage people say when they think they're only among other white people.",neg
+51,0.053,0.82,0.127,0.9562,"I'm half white/Chinese, though most people just assume I'm Mexican. (9/10 times I've heard Mexican specifically so using that instead of hispanic) Sorry bud, no Mexican blood in these veins. Note: previous comments were read and I do live in California so it could be bc there's a sizable hispanic population here.
+Like other people have also mentioned, I've gotten the usual ching chong garbled words of pretend Chinese and asked if I/my mom eats dog. And it's more fetishization but I've been told I look pretty because I'm mixed or that because I'm mixed, my kids (not having any lol) will look pretty. I've had kids pull the creases of their eyes to make them ""asian"" as well or comment that my eyes don't look asian (so of course I had to be lying). That's genetics for you, kiddo.
+
+Also just a weird experience but I distinctly remember in hs when I mentioned I wasn't doing the best in math, one of my (fully Chinese) friends commented that I should at least be half good at math because I'm half Chinese like- what????",pos
+52,0.052,0.818,0.13,0.9775,"Japanese and white mixed and it's frustrating how I either look mostly Asian or white to different people. I am honestly for lack of better words..lucky/privileged to be Japanese though because most people of most backgrounds and ages think rather positively about Japan. I never got the stuff about eating dogs or being communist or something just.. ""Oh I like Japanese people l. They're so clean, polite, etc."" Occasionally there is some gatekeeping (like you have to be full or look super Japanese to 'count') I even one time was told, ""you're not Japanese, probably Chinese."" Like wtf? Seems kind of offensive toward Chinese people..Sometimes there is an kind of odd purism or something like idk I get treated like a great value brand Japanese person at times or fake, low quality version and it irks me.
+
+This has happened with people that fetishize Japanese people more often than average people. Like they objectify Japanese women as though they're LV purses and dating a Japanese girl is like wearing an LV purse. Meanwhile, I'm a cheap knockoff LV purse which I find kind of dehumanizing.
+
+Asian Americans...I'm either in or out. If I'm out then there is like some negatively towards me, like I'm infiltrating their space. I don't go to those spaces anymore. Oddly enough the Asian Americans that have treated me like this are/were not as connected to or interested in their culture. Asian Americans that are interested in their culture have been friendlier to me. Asians from Asian countries, once again in or out but never any hostility.
+
+Japanese people- Ironic cause Japanophiles say they will not accept mixed Japanese people but they're very friendly to me and almost want to take me under their wing or something to teach me about my heritage. I don't seem to be treated like a mere foreigner that's into Japanese culture but someone who is of Japanese blood and American or mixed Japanese/American culture that wants to reconnect or like a foreigner/gaijin with an asterisk. (The ""but not too foreign"" trope)  
+
+There is also this not often enough talked about belief among SOME Japanese people that having Japanese blood means you're mindset in general is more Japanese as though Japanese culture or ways are genetic or something. I really want to emphasize though that this is only SOME people.",pos
+53,0.122,0.724,0.154,0.3096,"Male Asian mix. I've gotten the small dick, anti-small dick (i.e.: well hopefully you're not Asian down there), and various violence to my genitals under the pretense of ""it's not like I'll hit anything.""
+
+I've also gotten the stuff you got, as well as ""mixed people look so good"" but in a way that feels a lot more objectifying than flattering.",pos
+54,0.068,0.835,0.097,0.1759,Yes! Whenever white people ask where I’m from they’re hoping I’ll say Spain or Italy and they’ll throw out a bit of racism when I tell them I’m mixed white south asian. Other mixed white south asians don’t even ask. They usually just introduce themselves and tell me where I’m from. Spot on every time.,neu
+55,0.04,0.916,0.044,0.1263,"Unfortunately, I feel like a lot of people still don’t realize that Hispanics and Latines aren’t actually races ... they’re just umbrella terms for people who speak Spanish (Hispanic) or who have origins to Latin American (Latine) countries. Example: I can be a Latina of East Asian, European, etc ancestry. It just means that I’m multiracial, multiethnic and multicultural. 🤷🏻‍♀️ 
+
+Sadly, I think people still don’t know how to talk about people with mixed ancestry/heritage. We’re still thought of as an abstract subject and since most of us are very “ambiguous looking”, they (mono-racial and mono-ethnic people) often decide whither or not to include us by how we look. If you don’t look asian “enough”, then it’s very easy for them to invalidate that part of your identity.",neu
+56,0.102,0.642,0.255,0.6199,I’ve gotten more people asking if I’m Hispanic than if I’m Asian. It’s honestly kind of annoying because how???? Lol,pos
+57,0.247,0.753,0.0,-0.507,I have too been asked this a thousand times. It's so insanely rude.,neg
+58,0.185,0.502,0.313,0.6219,"Preach!!!
+
+Kboos and weebs in my experience and from what I've seen treat us mixed Asians like shit smh. Super toxic.",pos
+59,0.198,0.802,0.0,-0.6899,"Same there, though my full name is white. Most guys have meet call me Mia Khalifa, or have a fetish for brown women. Its so annoying.",neg
+60,0.0,1.0,0.0,0.0,Where are you meeting other mixed white south asian people? The only other person I know with my racial makeup is my sibling 🤦🏻‍♀️,neu
+61,0.032,0.875,0.093,0.7329,"Well, like I said in my comment above yours here … many people who are “Hispanic” are also multiracial and many of them (sometimes unknowingly) actually do have Asian heritage as well, so it’s understandable that some would think you’re a part of that same community too. 🙂
+
+I know that your comment wasn’t a direct reply to mine, but I just wanted to add more information about this topic … especially because I’m really tired of seeing various Asian Latines constantly being erased from Latin American history. I mean, honestly … if you can believe that Asian Americans, Asian Canadians, Asian Australians, etc exist … then why would it be so surprising to realize that Asian Latin Americans also exist? Asian diasporas and Asians of various mixed ancestry exist all over the world.",pos
+62,0.0,0.956,0.044,0.09,"I’m in the midlands in the UK. I knew one other mixed kid, besides my brother, growing up, but I’ve met quite a few more mixed white south asians as an adult",neu
+63,0.0,0.887,0.113,0.8271,"100% true. I think the assumption of me being Hispanic originates from the fact that the areas I’ve lived in have been close to the US/Mexico border and, thus, have had a larger Hispanic/Latin community than Asian. 
+To add to your comment, there was a lot of European colonialism in South America years and years ago, so there would be a mixture of cultures and “looks” due to that :) Thanks for your information btw",pos
+64,0.0,1.0,0.0,0.0,That sounds really affirming to find as an adult at least.,neu
+65,0.051,0.828,0.121,0.9478,"No problem. :) And yeah, I definitely think that’s bound to happen in places like Texas, California, etc. because most of the Latin/Hispanic community there tends to have Mexican roots and many of them have Asian ancestry due the genetic legacy of the Manila gallons trade that lasted between 1565 and 1815. 
+
+Btw, I didn’t mean to get all “Dora the Explorer” on you, lol. I don’t expect everyone to know these things (I’m still learning a lot about my own diverse ancestry), but I just find it really disheartening when many people genuinely seem to think that Asian diasporas don’t exist in certain parts of the world (like the Caribbean, South America, etc) … when they absolutely do exist and have for many centuries. A couple examples: Spain colonized The Philippines for over three centuries, Cuba has one of the oldest Chinatowns in history and the largest Nikkei community in the world is actually in Brazil. Peru even had a President in the 1990s who’s parents were Japanese immigrants. 
+
+So yeah, I know when people think of “Latine” & “Hispanic” the first thing that they think about is often European colonialism, but that’s just one piece of a much larger and diverse puzzle. Like, for real … I’m always surprised by how surprised other people get when they see an actual Asian person speaking Spanish or Portuguese. I know it’s because sadly there aren’t that many of them here in the United States, but whenever I meet some? It’s like being reunited with an old friend or long lost family member. ♥️",pos
+66,0.06,0.87,0.07,0.1796,"It’s been nice, yeah. I’m so used to white people asking me where I’m from (when I tell them the city I grew up in they say “no, you know what I’m asking”) or telling me I’m “exotic” or having some weird fetish about it all (and that’s really odd, because I’m so light that I pass for white), and there’s none of that whatsoever with other mixed people",neu
+67,0.068,0.819,0.113,0.5106,"That's true. I currently live in Texas and the city I live in has a huge Latino community. If you didn't know, Palau also used to be a part of the Spanish East Indies. My dad gets mistaken for being Mexican here and people often speak Spanish to him whenever we go out (I get this a lot too lol). My mom on the other hand gets mistaken for Korean.",pos
+68,0.035,0.798,0.167,0.7436,"I know exactly what you mean about the fetishization. I feel like I even get it from desi guys who want to date white women and feel like I’m a good compromise for their parents who want them to marry a south asian gal.🤮 (It’s especially unwanted attention given that I’m gay and as of the end of last year, married.)",pos
+69,0.067,0.748,0.185,0.8622,"Congrats on getting married! Yeah, I’ve had the white people shittyness described above all from one person before. The mother of someone I was seeing. After it was explained that I’m not Spanish or Italian like they wanted me to be, they said “well you’re *still* attractive”.  Like it’s a bit dirty and exciting. Everyone there was mortified, except for the person who said it. Some white people don’t see anything wrong with saying stuff like that",pos
+70,0.043,0.677,0.28,0.9447,"Thanks! Oof. Yeah, in laws can be especially rough in regards to racial differences I think. It’s a special kind of gross when people treat your actual race that way after saying you look like something else. I had a teacher react similarly telling me that I should be happy that I look Russian (and therefore better? I guess?) instead of South Asian. 🤦🏻‍♀️",pos
+71,0.089,0.738,0.173,0.4389,"Also people saying “I wish I had your tan” and I have to explain that it’s my natural skin tone. They follow it up with “oh, you’re so lucky!” and act like I haven’t experienced a lot of racism because of it",pos
+72,0.323,0.677,0.0,-0.7346,Ugh folks say that to my sibling who is a bit darker than me. So gross.,neg
+73,0.173,0.827,0.0,-0.7703,"My twin is a lot darker than me and has naturally tight, curly jet-black hair. Strangers would use entirely the wrong racial slurs when trying to insult him because no-one can figure out his ethnicity",neg
+74,0.0,1.0,0.0,0.0,Yikes!,neu
+75,0.091,0.746,0.163,0.5719,"About time the world realize that racism is a huge part of modern Swedish history. Most people just think of sweden as this acceptant liberal country and tend to forget all about how sweden leaned towards working with the nazis and that their second largest political party even to this day, is a party rooted in neo-nazism.",pos
+76,0.106,0.677,0.217,0.5574,Thank you for sharing this history. It’s hard to read about such savagery but it’s also helps inform our understanding of the present era in some ways.,pos
+77,0.134,0.866,0.0,-0.7964,"This was done in so many different countries. Barbaric and tragic. (Ironically, from Europe which has long referred to any other culture with that first word.) One of the first things that comes to mind when I see Europeans attempting to judge racism in other countries…stones and glass houses.",neg
+78,0.233,0.767,0.0,-0.8225,I have family in Italy and they always talk shit about how racist Sweden is. As a mixed person I don’t think I’ll be running to visit any Scandinavian country.,neg
+79,0.0,1.0,0.0,0.0,Can you link me to recent articles about this (even if they're in Swedish)? I don't see any articles about it here: https://www.dn.se/sok/?q=svenska%20steriliseringslagarna&page=1&sort=newest&date=&fields=,neu
+80,0.0,1.0,0.0,0.0,[removed],neu
+81,0.0,1.0,0.0,0.0,Take this example too: www.cbc.ca/amp/1.4045790,neu
+82,0.0,1.0,0.0,0.0,Depends where you go obviously. Parts of Stockholm are as diverse as New York City or Paris.,neu
+83,0.0,1.0,0.0,0.0,"I'm not Swedish,, Google and most are from 90's",neu
+84,0.093,0.878,0.029,-0.6249,"Your account is too new, or hasn't enough karma.  Your submission has been temporarily held up for review by the moderators as a precaution to avoid spam, trolls, and bad-faith arguments.
+
+Human moderators review these flagged posts and comments daily and will generally approve them, provided they abide by this sub's rules. 
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/mixedrace) if you have any questions or concerns.*",neg
+85,0.127,0.695,0.178,0.5106,"Sure, everywhere has pockets of diversity. It doesn’t mean racism doesn’t exist in those areas Diversity doesn’t mean tolerance, it doesn’t mean “racism doesn’t exist here because look there’s a lot of races”. The history of  forced sterilization being exposed is just one more reason for me to stay away. Like ah yes eugenics and then suppressing the truth and hiding history to look better isn’t appealing at all.",pos
+86,0.048,0.741,0.21,0.8176,Ok. From my perspective it’s like this tho: I know about the historic and current systematic racism in the USA but New York and Chicago are still among my favorite cities in the world. And it’s precisely the non white neighborhoods that are my favorites.,pos
+87,0.166,0.788,0.046,-0.897,I am a mixed POC living in the USA and I don’t want to go visit somewhere else that has the same issues (like racism and history of forced sterilization of mixed people) for vacation. I have no idea what you’re implying when you say that the “non white neighborhoods are your favorite” what did you mean by that? Are you Swedish and like that’s ur way of saying you aren’t racist? I don’t get it.,neg
+88,0.238,0.762,0.0,-0.8727,"> I don't want to go visit somewhere else that has the same issues (like racism and history of forced sterilization of mixed people) for vacation.  
+
+Then you have nowhere. Humans, with a few exceptions, seem incapable of living with the different.",neg
+89,0.095,0.757,0.147,0.706,"Now you’re making it sound like I’m out here promoting tourism to Sweden. I’m not. I’m saying that if you chose not to go to countries that have a horrible history of racism you’d have a hard time seeing the world. My point is that the US history is extremely ugly and still I love to travel there. If you can’t grasp that notion, then I can’t help you. To answer your last question: I prefer NY neighborhoods like east Harlem and  Jackson heights and Chicago neighborhoods like Little village because there’s a lot of Mexicans, Asians and African Americans. Regarding your question if that’s my way of saying I’m not racist…? … what’s wrong with you… gtfoh.",pos
+90,0.0,0.84,0.16,0.7096,"I didn’t ask for your opinion, help, advice or anything. You are the one replying to my comment dude I don’t care what you have to say it won’t change my mind or lived experiences.",pos
+91,0.065,0.865,0.07,0.0516,"When I was younger, I had bronze complexion, almost a dark golden tan. Nowadays, I'm light, bright, damn near white. 🤨
+
+I chalk it up to being outside in a beach town throughout my childhood and then becoming a homebody vampire in my later years.🤷🏽‍♀️",neu
+92,0.0,0.824,0.176,0.765,Definitely. A few days ago I was looking at pictures from when I was younger and I was so tan I couldn’t believe it. Everyone knew I was black mixed. Now they don’t believe me when I tell them lmao.,pos
+93,0.02,0.878,0.102,0.7906,"I am half black and half white. I was outdoors so much as a child that I was ten shades darker. I also had naturally blonde hair for a while.
+
+Now some white people are more tan than I am because I wear sunscreen every day haha. Seriously, I wear “light medium” foundation shades… Plus my hair is jet black now. 
+
+I also get asked if I’m Hispanic or other races haha. I don’t know how. My hair is still Afro textured. I do wish I still had my dark golden skin.",pos
+94,0.0,0.895,0.105,0.8555,"Yes. I’m half Asian, and I was a lot more brown as a kid than I am now. My skin started getting lighter around high school, and I got the first sunburn of my entire life when I was 16. 
+I’m in my 30’s now. Still have a golden undertone to my skin, but am pretty pale. I still look Asian but I’ve noticed people don’t clock it as fast, or if they do then they immediately know I’m mixed instead of assuming I’m full like they did when I was a kid.",pos
+95,0.07,0.823,0.106,0.924,"Holy $hit I'm so happy to have come across this post! This is something I have never admitted to anyone and kept in my own head, not even my best friend who is another mono-race but always understands when I talk to her about something about my race and I *know* she won't judge me for it. When I was younger (like before 14 ish) I looked like the typical biracial (black/white) kid, like all the others around me and where I grew up it was common to see biracial kids and in my class alone there was 4 of us. But then around 15-16 I started getting lighter, and over the years it kept going until I got to the very light skinned state (still got the brown undertone but I look like a dash of coffee mixed with two entire cartons of milk) I'm in right now. I wasn't sure if this is a thing that happens to mixed people sometimes and I've never really been so bothered by it to care enough to do research on it or whatever, but whenever I get (lighthearted) comments about how white I look I would just good-naturedly shrug it off but in the back of my head I would wonder if I made myself lighter by avoiding the sun? Like if it was some internalised racism or something that made me avoid the sun, even though I logically know that's not it, I hate heat and can only stand the sun when it's gentle in the early morning and late evening. It's not such a big deal and doesn't affect my every day life, but it is something that sits at the back of my head like ""i've never head this happen to someone else or seen it myself, is it...?""
+
+Wasn't expecting to see this post ever and kind of makes me feel validated that hey, this can happen to other people too!",pos
+96,0.0,0.885,0.115,0.5267,"I tell people I got backwards reverse vitiligo. Like what Uncle Ruckus has but backwards. Every year God tells me to lighten up, and though my mood gets darker and darker, my skin just goes it's own way.",pos
+97,0.056,0.829,0.115,0.8294,"I’m told that I look Asian, Brazilian, Hawaiian, Puerto Rican, Cape Verdean or Panamanian depending upon how I style my hair and the time of year. In the winter, when I don’t have a sun kissed golden tan, I am often asked if I’m Asian or Hawaiian. The rest of the year it’s often something else. But the best part about being mixed is that I often will pretend to not speak English to random strangers who approach me in public just to get them to leave me alone. It’s always hilarious. 😊",pos
+98,0.0,1.0,0.0,0.0,"My younger brother was a pale baby until he was about a year old, then his skin darkened a bit to match other family members.",neu
+99,0.098,0.639,0.263,0.4816,yes so much! i was a really tan kid no matter the time of year. now i’m like paper in the winter,pos
+100,0.0,0.761,0.239,0.296,Yeah people get lighter as they get older.,pos
+101,0.1,0.811,0.09,0.0348,"I’m black and white but live in Japan and SOMEHOW BLEND IN. Locals mistake me for being Japanese at first or half Japanese. I really don’t see it but It’s nice not being treated like a tourist though, some of my foreign friends anytime they go out are treated as such despite living here for 10+ years. Back in America people would speak to me in Spanish or ask if I’m Asian and always shocked when I say black",neu
+102,0.036,0.879,0.084,0.7469,"I don’t think this is the question you were asking, but something like this kinda happened to me?
+
+As a (wasian) kid, living in a diverse city, almost everyone could point me out as mixed, and I got questioned about my race constantly. I moved down South in high school, still to a relatively dense city, and people assumed I was either white or Hispanic.
+
+Now, I live in a very white, rural town, and everyone thinks I’m white. My friends are surprised whenever it comes up. I think it’s because so few non-white people live here, that the thought I might be mixed doesn’t even occur to people. I’ve always been white-passing (or just white, I don’t want to get into that argument rn), and my skin color hasn’t really changed since I was a kid.",pos
+103,0.19,0.81,0.0,-0.2617,"No, but I'm sorry your environment led you to frame it that way for yourself.",neg
+104,0.0,0.96,0.04,0.2023,This sort of happened to me too. I spent a ton of time outside playing sports and at the beach as a kid so I always had a dark tan. Now that I’m an adult who works inside all day and wears sunscreen my skin is much lighter 🤷🏽‍♀️,pos
+105,0.066,0.807,0.127,0.2732,"When I was a kid I had dark olivey skin and straight blondey hair and now I'm a pasty off-grey with dark wavy brown hair, I look like a ghost in comparison to my childhood self 😂😂",pos
+106,0.0,0.727,0.273,0.7841,"Yep, as a kid I looked like my dads native side of the family and could tan really easy, now I'm pale as a vampire and burn.",pos
+107,0.058,0.841,0.101,0.6369,"I actually did somewhat of the reverse lmao- as a child I only ever wanted to watch movies inside and didn't do much outdoor playing unless forced, so I was quite pale, and with my grey eyes I could pass as white. 
+
+In the present, I do still get quite pale in the winter but still with a visible olive complexion, not pink. In the summer, I become a medium shade basically from the first time I go to my community pool- I do this a lot when I can, because swimming is my favorite exercise. 
+
+So nowadays I actually get seen as Latina (or mistaken for 1/4 black, Indian, or any number of things as I'm ambiguous looking) far more than I did as a child.  I still sometimes get mistaken for just a very tan white person, because of my eyes, but most people clock me pretty quick.",pos
+108,0.0,1.0,0.0,0.0,"Had a similar experience. I’m mixed white/native/Latino and I used to be olive skinned with dark hair, usually read as Arab. Now I have pale skin, light brown hair, most people’s first guess is Italian.",neu
+109,0.0,1.0,0.0,0.0,[removed],neu
+110,0.0,1.0,0.0,0.0,"Same thing here. My hair isn’t even black anymore, it’s more reddish brown nowadays",neu
+111,0.216,0.784,0.0,-0.5267,"That makes no sense , as I didn’t frame it any type of way. No need to for condescending comments:)",neg
+112,0.093,0.878,0.029,-0.6249,"Your account is too new, or hasn't enough karma.  Your submission has been temporarily held up for review by the moderators as a precaution to avoid spam, trolls, and bad-faith arguments.
+
+Human moderators review these flagged posts and comments daily and will generally approve them, provided they abide by this sub's rules. 
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/mixedrace) if you have any questions or concerns.*",neg
+113,0.0,1.0,0.0,0.0,Same!,neu
+114,0.0,0.0,1.0,0.2732,Agreed.,pos
+115,0.0,0.731,0.269,0.7089,Honestly black people are usually more accepting of my identity than white people and people of other races,pos
+116,0.163,0.801,0.036,-0.9806,"I'm half black, half white and here's what I noticed dealing with both…
+
+* Out of all the races on Earth, black people are the biggest hypocrites. Black people talk shit about white people EVERY SINGLE DAY, and **yes, it's racist**. Then, when a white person says **one thing** about black people… they lose their shit. They want to examine it and talk about it on the internet for 2 weeks. It's yet another scenario of ""they can dish it out, but not take it"". Black people would like to pretend that they are somehow immune to being talked about.
+* Lots of white people hate black people and don't really even know why. It's generational racism passed down. They are ignorant mainly because they haven't spent any time around black people to even really know them or anything about black culture. The white people who **are** racist are also hypocrites and cowards because they'll never say these things to a black person's face. Sometimes, their racism can be subtle i.e. it's hidden in the language and tone.",neg
+117,0.156,0.676,0.168,0.4404,"Samoans generally get along with black people. There's no inherited prejudice and both love barbecue.
+
+At the same time, they're a colonized people and the super conservative religious fundamental types are as to be expected.
+
+There is certainly a weird dissonance seeing my Samoan uncle on Facebook going full maga and shitting on BLM considering his claim to fame involved being mistaken for a black celebrity.",pos
+118,0.045,0.858,0.097,0.7717,I can’t really remember things said by people too much because I blocked some things out. But I remember these white girls in college going on about all the black kids being scholarship kids (athletic) and they wouldn’t be there otherwise if not. Then turned around and said. Oh sh*t. Not you. (This was sitting in my friend’s room with three other girls. It wasn’t my friend who said it but they were her friends she liked.) Another time this girl said she didn’t want to go to the gym after a certain because because too many black kids used it. Scary. This time I was in a car. She said nothing. Didn’t acknowledge me. My school was about 8% Black if that.,pos
+119,0.099,0.901,0.0,-0.4724,"I remember my (white) aunt told me if she saw a black person walking on the same sidewalk, she would cross the road to avoid them. («Not your father though!!!» 💀)",neg
+120,0.0,1.0,0.0,0.0,what?,neu
+121,0.0,0.76,0.24,0.743,"You know what I mean when other people say ""black people are....."" And you listen like wow this is really what people think. 💀",pos
+122,0.168,0.621,0.211,0.1045,"Oh okay. Yeah, I've definitely heard people say ""fuck ni***"" right in front of me. Then they looked at me and it became very awkward",neu
+123,0.226,0.64,0.134,-0.3774,"It really puts shit into perspective for me, def a reality check for sure.",neg
+124,0.0,0.763,0.237,0.4215,"That was a very long time ago, thankfully (like 25 years)",pos
+125,0.215,0.714,0.071,-0.8575,"Not looking like your mom's race is not a sin. You don't have to validate your racial composition. When people think you are lying, you don't need to prove them wrong. 
+
+I have a frd half white/black and everybody thinks he is Hispanic/Dominican/Puerto Rican. He never gets offended when people misinterpret him or thinks he is lying.",neg
+126,0.118,0.882,0.0,-0.3134,I only really get offended when people yell at me for not knowing Spanish. I'm not Hispanic at all.,neg
+127,0.042,0.935,0.024,-0.5271,"My mom was black and south Asian, likely Indian, and my father was white and I have a similar experience. Growing up was called slurs for every racial group. In recent years, I’d be in conversations with new yt people and they’d bring up issues of race seemingly out of nowhere. Eventually I usually mention that I’m black multiracial and they’re always like, ooOoOoO really?? I didn’t see you as black?!? At first this led to some serious dysphoria and feelings of being an imposter but after a while I recognized that the pattern is they bring it up relentlessly, pushing me to the point where I need to speak up and self identify, then they deny. 
+
+Long story short, you know who you are and don’t have to prove yourself to anyone. ✊🏾",neg
+128,0.0,1.0,0.0,0.0,People assume I am middle eastern or Indian far far more often than correctly assuming I'm Mexican-Indigenous / White,neu
+129,0.054,0.798,0.148,0.6724,"Everyone thinks I'm Coast Salish cuz that's what most non-white ppl in my small town are. I'm half black but have very long very straight dark hair so I get the confusion. Doesn't really bother me, FN people often ask what Nation I'm from as well, it's not just the white ppl.",pos
+130,0.079,0.887,0.034,-0.7495,"Yes, all the time. Once an elderly couple thought I was monoracial asian and didn't believe me when I told them I'm mixed and born and raised in the Netherlands. They kind of laughed and told me that oh everybody is mixed then. 
+
+When I was little, I looked filipino specifically for everyone. (This was when I lived in Dubai) Some kids thought I was lying when I told them that I was Dutch and called me the Filipina girl. I'm not. 
+
+In the Netherlands, people have mistaken me for Turkish or some kind of Arab. They assume I'm Muslim. Some people in large cities only speak English to me at first. 
+
+I've now been mistaken for middle eastern and Hispanic. Occasionally Armenian or spanish. 
+
+Now people have a hard time believing that I'm part Indonesian. Some were looking at me so confused when I tell them that. 
+
+I look racially ambiguous now and I wonder how I will look when I'm older.",neg
+131,0.086,0.765,0.148,0.9752,"i’m half indian too with pale skin, brown hair, and grey eyes. the only thing that rlly tips ppl off abt me being indian is my first name (last name is indian too but it was altered by some great uncle so it could probably pass off as american). i don’t think anyone’s straight up doubted me, but plenty have said “there’s no way you’re indian” a bit sarcastically and/or “i still can’t believe you’re indian”. 
+
+i did have one guy say that someone in my family was probably raped by a white person bc i said some members of my indian family have lighter eyes which made me feel quite uncomfortable (and is very likely to be untrue since light eyes r a fairly common trait in my dads caste which is like a quarter million ppl). same dude definitely tried to make me feel like ig a “lesser indian” by saying that what i called/pronounced things were “wrong” even though we’re from two different parts of india where the languages r pretty different. we went to a south asian restaurant together with some friends and he started lecturing me on how the dish i chose was “colonized food created by the british that’s fake indian food” (i ended up looking it up and asking my dad and it actually was “real indian food”, he just got mixed up 💀). he was also going on abt how “true” indian food only uses coconut milk and not dairy (same dude was drinking a mango lassi a day later). idk he was a good enough friend but it felt like he was always trying to start up some sort of dick measuring contest whenever being indian came up 💀
+
+i feel like most ppl who r half white and half indian either look like one race or the other simply bc india has sm diversity. might be different for people who r mixed south indian but idk i’m pretty sure idk any",pos
+132,0.044,0.784,0.172,0.9274,"just go ahead and try to accept that providing proof to people about anything is absolutely worthless and if you can accept that you may able to be much happier. I am mixed with various African, Asian, European mostly and I have never been enough of any of those to seem to really fit into one group. I tried hanging out with different groups growing up in a hawaii which is very diverse and it seemed my truest friends were the ones that looked so much different than me and we all have different perspectives. No one worth having any relationship with will ask you to prove anything to them.",pos
+133,0.0,1.0,0.0,0.0,I get Polynesian a lot. I'm half white and half Korean.,neu
+134,0.0,0.833,0.167,0.8957,"I agree with what some are saying here. Don't prove anything for anyone else, just validate your own experiences and let it all behind you. Easier said that done, but never impossible. You are multiracial/mixed and they don't need to see you as one in particular,  they just need to accept that you are multiple pieces and far more than race - they need to move on with their lives, honestly.",pos
+135,0.135,0.792,0.073,-0.9604,"I’m half Mexican half white same with my partner and we are both pale. No one believed we were Mexican till we got married and changed our last name to a more Mexican sounding one (in honor of his mothers side). It can be really disheartening and I’m sorry you have to go through it. I would hear so much racist shit about Mexicans growing up and then when I would explain my mother is Mexican the people around me would say “well it’s not like it’s your family or your mothers not illegal right!?” Then pretty much everything Trump did speaking shit about Mexicans…I don’t really wanna go down that rabbit hole.
+
+My mom wouldn’t even teach us Spanish cause she was scared of racist people. So now as an adult I have to learn what being Latina means to me and if someone doesn’t believe me they can honestly fuck off. Other Latinas don’t give a shit that I’m pale it really only seems to be white people that don’t believe me. I’ve recently started being in Latina groups on LinkedIn trying to build a network and it helps so much, I would suggest that and try and meet other people in your culture. I don’t think a lot of people talk enough about being biracial and it’s becoming more common. Just know you’re not a lone and you don’t have to explain yourself to anyone, if you do and they don’t believe you that sucks for them, not your problem.",neg
+136,0.0,1.0,0.0,0.0,"I’m Mexican and Swedish and absolutely nobody ever believes I’m mixed. I’m not tall, blonde or blue eyed.",neu
+137,0.062,0.856,0.082,0.1272,People think I'm Japanese or Chinese a lot and I have no such lineage whatsoever. Some people's reactions are quite funny but it does get old.,neu
+138,0.116,0.848,0.036,-0.6345,"Unless someone sees your parents, they might not believe you. 
+
+Yes, this happens to me too. People assume I’m middle eastern, Native American, etc. but no. Black. People will straight up deny my ethnicity to my face. In public. 
+
+All you can do is just say your identity and if they don’t believe you, then you gotta move on.",neg
+139,0.075,0.794,0.131,0.5584,"Yes what bothers me a lot is when I was in high school I would get asked all the time what I was and I would respond half black and half white cause that’s what I am.
+I had a friend who would always tell me I wasn’t half black it was very annoying. Here’s what I look like along with other questions I would get. https://youtube.com/shorts/I94SnQbObio?feature=share",pos
+140,0.046,0.818,0.135,0.6983,Yea all the time . Working at a music recording studio was difficult for me because of that reason . White mother/Black and white Father so I’m pretty light skin or high yellow 😂😂Had to prove to the clients I was mixed everyday . The staff and other engineers were amazing though .,pos
+141,0.072,0.833,0.095,0.1531,You might find you will have people include you or exclude you based on what they feel is convenient or advantageous at that moment.,neu
+142,0.049,0.821,0.13,0.9813,"I am adopted but my biological mom was Indian and my biological dad was white (ashkenazi).  My adoptive parents are white and I have two brothers who are of Mexican descent.  My moms stepdad is also Mexican and her entire side of the family speaks Spanish.  So, growing up everyone assumed I was Mexican (I know that’s a nationality and not a race).  So I was always thought to be a Brown Mexican kid like my brothers and I honestly rarely ever fought anyone on it. People can think what they want.  You know what you are.  
+
+Genetics is crazy.  My bio father was a pale guy with gray eyes and brown hair.  My bio mother was a light skinned brown Indian woman with very dark brown hair and green eyes.  I’m much darker than my mother.  I have a few pictures of her and in one she’s with her parents.  Her mother is also a light skinned Indian woman but her father is very dark skinned with radiant green eyes.  He’s Indian-Pakistani.  I happen to look the most like him than either of my biological parents.  
+
+My friend from college is the same mix as me.  Ashkenazi and Indian.  White skin, pale gray eyes and curly light brown hair. 
+
+Then I have two married friends who are both mixed race biracial (Black & white) and they have four kids that are each distinctively different shades.  I find it crazy cool, honestly. 
+
+But I understand your frustrations.  We live in a world where how people perceive us has so much impact.  It doesn’t feel good to be told by others about our own identity.  At 16 this can be especially hard.
+
+My advice is to surround yourself with supportive people.  Sometimes that’s hard when you are young though.  Do your parents have weird hang ups regarding their own racial identities?",pos
+143,0.063,0.709,0.228,0.9937,"All the time. I am Chinese, Okinawan, and Black. Most often I get confused for Filipino or Latino depending where I am/who I’m with. I grew up in a place where being mixed is actually quite common, but people still had trouble wrapping their minds around my particular mix. It’s frustrating, but eventually you get to a point where you reckon with how much you value other people’s perceptions of you, and how much you value being confident in yourself.
+
+I think it’s wonderful that you’re seeking help in making sense of your mother’s actions and your own experience. I hope that it aids you in finding a sense of confidence and pride in your identity, and perhaps a bit of grace for your mother and her own experience. It is tragic, but certainly not an uncommon experience for folks to eschew their own culture in hopes of being accepted as “enough” to fit into their new context, and especially for immigrant parents to pass that down to their children with the hope that they’ll have an easier time than they did fitting in. If your family situation is like mine, perhaps your grandparents immigrated and passed that message to your mom, and perhaps it falls to us as the next generation to break that negative mindset and (re)connect with that culture, even despite resistance to your efforts.
+
+In any case, I wish you strength on your journey.",pos
+144,0.014,0.878,0.108,0.967,"Race isn’t biologically real. But my biological parent’s ethnicities were African American and Caucasian American. From the time I was a toddler Spanish speaking people would come up to my white adoptive mother at church and say “What a beautiful Spanish baby you have.”😂 
+She didn’t know what to say really. But she was aware I that I was black / white 50/50. So she just said Thankyou. Even as an adult Spanish speaking people come up to me all that time and ask if I’m from Spain. Even in elementary school our Spanish teacher who was literally from Spain would call me by her daughter’s name accidentally and he daughter was actually the only other person in that entire PWI who looked like me. I don’t know what it is about me but even other black people assume I speak Spanish as well just based on my appearance as well. I’m literally just American black/ white. English is my first language. I even did a 23 and me just to make sure because of how frequently it happened to me. The results came back 50% European and 46% Sub Saharan African. The other 4% was like Egyptian and Asian. Not a single percentage was Iberian peninsula or any Spanish speaking country lol.",pos
+145,0.0,1.0,0.0,0.0,I used to be told I’m the whitest black guy… and that always made me feel off.,neu
+146,0.101,0.767,0.132,0.4964,"I sometimes get confused for mexican, despite having light brown hair that’s clearly african in origin. I would understand if I was confused for someone from the Muslim world, but Mexican? Really? I actually get annoyed when people try to speak spanish to me, I take pride in my culture, my African and French origins, and spanish as a language doesn’t interest me in the slightest.",pos
+147,0.055,0.892,0.053,-0.0258,"Yep all the time, I am just as Asian as Vladimir Putin is yet I got confused for one all the time. In one instance a Burmese girl spoke to me in her language for I assume she thought I was her fellows countrymen.",neu
+148,0.112,0.888,0.0,-0.3679,I’m mixed black and people think I’m East Indian a lot. I’m really not sure how they get there - I have African curls!,neg
+149,0.014,0.909,0.077,0.9503,"OP, curious. Is there a way someone might pickup on just by knowing you that you *might* be something other than White?
+
+I ask because depending on how *connected* or *immersed* you are with Indian culture or people, when you declare your ethnic background it might come off as strange. When I see questions like this — I'm always curious on the lifestyle and disposition of the individual.
+
+Looking at me myself. I've had friends that knew me for a a year or more and didn't know I was mixed or Portuguese. Some found out because they happened to hear me singing a song in Portuguese. Some learned because of how familiar I was with Japanese cuisine while on a work trip to Japan and that prompted to ask ""how I knew so much"". Though some people *clock* me as being mixed, many don't, but I also don't talk about being mixed much. Not sure what your lifestyle looks like but people ask me about my ethnicity usually over time because they *caught* something I did, or do, or saw a side of me they didn't know whats there and they asked. When they understand it's *culture* and *exposure* they ""get it"" even though I don't look mixed to everyone. From a global region perspective — most of my friends or their parents are from Spain, Portugal, the Mediterranean or a Spanish-speaking country (about 50% of the people I spend time with weekly) — this is often how many of my Black, White, Asian, and Indian friends have discovered this *other side*.
+
+Do you spend time with Indian people or immerse in Indian culture? If not, that might be part of the surprise to other people.",pos
+150,0.056,0.79,0.154,0.5798,"Which part of India is your mom from? And is your dad british/Irish?
+
+Don't worry, you don't have to explain your ethnicity to anyone. You don't have to validate your existence.
+Stand proud.",pos
+151,0.091,0.909,0.0,-0.3612,"All the time. My mother is Jamaican and my father is welsh. I live in Canada and I’m constantly mistaken for native Canadian, Filipino and sometimes Latina.",neg
+152,0.0,1.0,0.0,0.0,My mother is Southeast Asian and my father is white and Asian. A lot of people think I'm Mexican.,neu
+153,0.0,0.851,0.149,0.7351,"Mixed with black and white, so light skinned with big curly hair and living in the Bronx with (I guess) what sounds like a Latina's name? Oh yeah. CONSTANTLY. Dominican, Puerto Rican, etc. People have tried to insist I must be, like I don't know what I am. 😂",pos
+154,0.027,0.784,0.189,0.9609,"Yes of course! All the time, but in a light hearted manner so it doesn't bother me. For context by dad I African American and my mom is white.
+
+In person I am mostly mistaken for Mexican almost everyday 😅 I also get Cuban and Puerto Rican pretty regularly and surprisingly the responses I get online are VERY different from the responses I get in person. On the internet, oddly and interestingly people's main guess is North African or some type of Arab. Although in American society I came to the conclusion that I will always be seen as Mexican, Cuban or Puerto Rican but honestly it doesn't really bother me.",pos
+155,0.178,0.78,0.042,-0.6351,"Yup, I get indian Pakistani all the time.
+
+And for unknown reason many south Asians want to make a problem with me for no reason out of the blue!!",neg
+156,0.022,0.965,0.014,-0.0258,"Absolutely. I have the same racial makeup as you and from your description, I've got similar coloring. You don't need to prove anything about your race to anyone. You look both Indian and White because you ARE both Indian and White.
+
+Edit: I read some comments and it seems like your mom has her own issues with her race that she needs to work through. I was raised quite differently in that my mother fought tooth and nail to impart culture and religion to my sibling and I. From where I sit and what I've seen, it seems hard for a multiracial person to divorce their sense of cultural/racial identity from the parent who is of that race/background but that doesn't mean that you have any less claim to it as a multiracial person.",neu
+157,0.265,0.684,0.051,-0.94,"Its just hurts, my mom never connected me to her culture. She racist towards her owned people. She would be happy when people told her, oh your daughters don't look ""Indian"". My siblings and I went into therapy this year. We realized so much fucked by shit that disconnect us from culture, our race. Sorry for the rant!",neg
+158,0.079,0.833,0.089,-0.1431,">I have a frd half white/black and everybody thinks he is Hispanic/Dominican/Puerto Rican. He never gets offended when people misinterpret him or thinks he is lying.
+
+I'm mixed Black and White and know your friend's experience all too well. 😭😭😭",neu
+159,0.137,0.819,0.044,-0.8854,"In the same boat. Having grown up in Alabama, it was hell on earth being mixed Korean-Caucasian. People always assumed I was Hispanic, or they’d be confused because they couldn’t tell what I was, so they’d ask me “wHaT aRE yOu?”. 
+
+Even this one group of Hispanic teens got mad and treated me like shit for most of the school year because they assumed I was one of them and the fact I didn’t know Spanish, until they finally found out one day.  It really hits hard when you don’t belong to a single race, so you don’t really feel like you belong anywhere.",neg
+160,0.104,0.896,0.0,-0.1901,Same for me. I've been mistaken as Middle Eastern but actually Indigenous Mexican and Anglo American.,neu
+161,0.0,1.0,0.0,0.0,"if you don’t mind me asking, which region is you’re dad from and what is his caste",neu
+162,0.066,0.863,0.071,0.0772,Oof. i feel like I could have ghost written this except it's my mom that's Indian. I get my  eyes from her family too. Its common enough with Kannada people from what she says.  You're absolutely right about India's diversity when it comes to phenotype. Whoever that person was that said those things to you seems like an absolute jerk with issues of his own to work through.,neu
+163,0.0,1.0,0.0,0.0,"Oh I feel this one. I’m half Vietnamese half white, I went to school in Hawaii… imposter syndrome was real.",neu
+164,0.0,1.0,0.0,0.0,"Oh I feel this one. I’m half Vietnamese half white, I went to school in Hawaii… imposter syndrome was real.",neu
+165,0.213,0.787,0.0,-0.5574,">  Do your parents have weird hang ups regarding their own racial identities?
+
+My mom does, she hates being Indian.",neg
+166,0.0,1.0,0.0,0.0,"My mom is from North India, 2nd gen. So she doesn't know much about her culture nor does she speak the language. My dad is Finnish but his family has been in Canada for many generations!",neu
+167,0.036,0.824,0.14,0.9576,"I feel this so much. I’m 1/2 Mexican, 1/4 white, and 1/4 Sri Lankan and in so many ways I almost feel like none of them. My mom is Mexican, but she never taught me Spanish or anything about her culture or heritage. I honestly feel whitewashed because compared to my many other friends and classmates who are Hispanic, I’m the least connected to it. Not to mention that I don’t have the strongest connection to the Sri Lankan part of me since my dad barely knows much about it either.  
+
+One thing I can recommend is to ask your mom to share her culture and background with you. If that doesn't work or makes you feel uncomfortable, then look up different things about your culture. Find other subreddits and blogs where people share their experiences and you can ask them questions. I plan on doing that because I do want to learn more about my background since for some reason or another, my family just doesn't care enough to share it with their children.",pos
+168,0.192,0.651,0.157,-0.6347,"Yeah, it definitely hurts to not be black enough or white enough and I definitely get frustrated. But I can't really be offended by their perception until there is some actual offense involved like telling me what I can or can't do because of my assumed race, or that my mother lied about who my biological father was or other nasty things about her. 
+
+I feel like bi racial people are the silent forgotten minority.",neg
+169,0.192,0.706,0.102,-0.7184,"Your mom has to get over her internalised hatred for her own race tho. Read the other comments. Therapy helps too. 
+
+Lots of Indians have hatred for their own race, they will prefer pale skin over dark skin. An example is Shake from love is blind. Bro was desparate to date white blondes 💀",neg
+170,0.0,0.881,0.119,0.3915,The sub isn't for dissecting DNA results. Hold questions like this for the weekly What am I Wednesday thread. Closing. And don't leave your identity to a bunch of internet strangers.,pos
+171,0.053,0.892,0.055,0.3051,"gotta be honest buddy I am a little confused here. you should not be looking for your racial identity through a DNA test. no one here can tell you what to identify as. you're Mexican (American? I don't know your nationality) and you're brown. it's that simple. it doesn't seem to me like you've had the experience of a mixed-race person, so just call yourself Chicano. 
+
+the forms really don't matter; tons of people have had to put themselves down as ""white"" despite not being so because the forms are totally outdated. if that is your main issue, though, choose ""Other"" when you can.",pos
+172,0.0,1.0,0.0,0.0,Mexican or mixed.,neu
+173,0.0,0.733,0.267,0.4588,It depends if u want the boost to herbalism for inscription or alchemy really.,pos
+174,0.0,1.0,0.0,0.0,Are they calling you gringo or are they calling you guero or something else? Gringo doesn’t always mean white,neu
+175,0.0,1.0,0.0,0.0,Indigenous Mexican or Mixed.,neu
+176,0.053,0.928,0.019,-0.6353,"Dont worry about blood quotient. You may be ""white passing"" but youre def not white. You grew up latino.
+
+But also about that Spain thing: it's not exactly correct. I thought a similar idea in regards to Spain colonizing my homeland, Philippines...and was met with a very angry response. The one civil person explained that the mestizo population was rather closed up, which makes sense because of how Spain organized the racial castes.
+
+Traces of blood will dilute to almost nothing after a few generations, you are ""indio"" through and through.",neg
+177,0.218,0.782,0.0,-0.4714,"If you really wanna complain, there's some subs for you!
+
+/r/NoShitSherlock 
+
+/r/iamverysmart ",neg
+178,0.25,0.632,0.119,-0.9753,"To all those viewing this thread, welcome. Please keep in mind that this subreddit is called **/r/AccidentalRacism**. It's for pictures of things that **are not actually racist** but in a certain connotation can be taken the wrong way.
+
+Please report any *actual racism* to the mods. Actual racism will result in a permanent ban.
+
+Further, please report any comments where anyone is complaining that in some contexts the accidental racism is innocent or tenuous, or that it's not racism. We know. It's accidental. These comments will be removed. Repeat offenders may be banned.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/AccidentalRacism) if you have any questions or concerns.*",neg
+179,0.0,1.0,0.0,0.0,Is it made of Caucasians or to season Caucasians?,neu
+180,0.0,1.0,0.0,0.0,It’s mayonnaise,neu
+181,0.0,1.0,0.0,0.0,So.. salt?,neu
+182,0.0,1.0,0.0,0.0,Is this seasoning from the Caucasus region?,neu
+183,0.0,1.0,0.0,0.0,So flour,neu
+184,0.209,0.541,0.25,0.1531,What’s wrong with Georgian and Armenian food? Lobiani is delicious.,neu
+185,0.0,0.775,0.225,0.4404,"Funnily enough, Caucasians (the real ones) use quite a bit of spice.",pos
+186,0.0,1.0,0.0,0.0,“Caucasian seasoning is people!”,neu
+187,0.176,0.824,0.0,-0.128,"that's an oxymoron
+
+or
+
+a fancy way to salt",neu
+188,0.0,0.562,0.438,0.5994,Is that a RANDI down there? lmao,pos
+189,0.0,1.0,0.0,0.0,Just call it white pepper.,neu
+190,0.0,1.0,0.0,0.0,they need it the most,neu
+191,0.0,1.0,0.0,0.0,I could stand to be spicier.,neu
+192,0.0,1.0,0.0,0.0,its boiled water,neu
+193,0.407,0.593,0.0,-0.4106,.89¢ for an empty bag?!?!,neg
+194,0.074,0.833,0.093,0.1531,"You all need to relax, I'm as white as possible and and I eat dishes that would make a Sichuan native blush. This stereotype is about 70 year old Floridians.",neu
+195,0.0,0.829,0.171,0.4767,Tbf white people were the main importers of black pepper and whom brought it to popularity.,pos
+196,0.0,0.92,0.08,0.2732,"Caucasian (descriptiv race)  is a term coined by a eugenicist to categorize certain Slavic people from the Caucasus region.
+
+&#x200B;
+
+Also [Caucasian seasoning](https://www.amazon.com/Caucasian-seasoning-spices-SEASONING-SVANETI/dp/B07M5LL7P1) if yall wanna buy",pos
+197,0.147,0.853,0.0,-0.5875,"You know, it's because Caucasian people don't really season their food. So their flesh do not taste that good and that's why you need extra seasoning for a good Caucasian steak.",neg
+198,0.0,0.5,0.5,0.7178,Sounds bland like me so pretty Caucasian indeed,pos
+199,0.265,0.735,0.0,-0.2023,Thars a lot for an empty bag,neg
+200,0.0,1.0,0.0,0.0,I guess it's barbecue sauce?,neu
+201,0.491,0.509,0.0,-0.6996,I bought this and it was empty. What a scam!,neg
+202,0.0,0.843,0.157,0.3818,"Once you clear the dust off, the sign reads, ""How to Cook for Forty Caucasians.""",pos
+203,0.0,1.0,0.0,0.0,Salt,neu
+204,0.0,1.0,0.0,0.0,/r/mayonnaiseisspicy,neu
+205,0.0,1.0,0.0,0.0,Msg,neu
+206,0.0,1.0,0.0,0.0,from the natives,neu
+207,0.0,0.653,0.347,0.4926,Surely there'd be salt and pepper too?!,pos
+208,0.0,1.0,0.0,0.0,Flour is way too spicy for us white boys.,neu
+209,0.0,0.531,0.469,0.6486,Lol I’m white and I like spicy food. …Sometimes.,pos
+210,0.167,0.833,0.0,-0.34,That’s crazy bc white teens in Georgia are the same as those Floridians,neg
+211,0.0,1.0,0.0,0.0,Native Minnesotan..I also live spicy but most from there can't handle big red chewing gum,neu
+212,0.104,0.896,0.0,-0.296,There are no Slavic languages native to the Caucasus. Actually all languages native to the Caucasus are non Indo European.,neg
+213,0.0,0.0,0.0,0.0,🤣,neu
+214,0.0,0.633,0.367,0.4404,"It's fairly easy, just do a barbecue.",pos
+215,0.078,0.779,0.143,0.4479,"The subreddit r/mayoisspicy does not exist. Maybe there's a typo?
+
+Consider [**creating a new subreddit** r/mayoisspicy](/subreddits/create?name=mayoisspicy).
+
+---
+^(🤖 this comment was written by a bot. beep boop 🤖)
+
+^(feel welcome to respond 'Bad bot'/'Good bot', it's useful feedback.)
+^[github](https://github.com/Toldry/RedditAutoCrosspostBot) ^| ^[Rank](https://botranks.com?bot=sub_doesnt_exist_bot)",pos
+216,0.0,1.0,0.0,0.0,It’s made. Any ideas of what it should be about?,neu
+217,0.054,0.849,0.097,0.3018,"That's asian seasoning, as far as i know most white americans get deathly ill if they ingest a little bit of MSG (except if it's parmesan, cheddar, beetroot or some other non-asian food item with naturally high MSG content, then it's completely OK by the magic of casual racism)",pos
+218,0.0,1.0,0.0,0.0,Just a pinch,neu
+219,0.266,0.734,0.0,-0.4404,"Well... push them south across the line, they're defective.",neg
+220,0.192,0.532,0.276,0.2006,"Georgian is a strange language, very cool though.",pos
+221,0.266,0.598,0.136,-0.34,"Msg illness comes from it raising blood pressure actually, just like salt.
+
+See monoSODIUMglutamate",neg
+222,0.234,0.509,0.257,-0.0387,"yeah, but people who get sick from asian food, blaming it on MSG but are perfectly fine eating cheddar by fisfuls are just projecting",neu
+223,0.25,0.632,0.119,-0.9753,"To all those viewing this thread, welcome. Please keep in mind that this subreddit is called **/r/AccidentalRacism**. It's for pictures of things that **are not actually racist** but in a certain connotation can be taken the wrong way.
+
+Please report any *actual racism* to the mods. Actual racism will result in a permanent ban.
+
+Further, please report any comments where anyone is complaining that in some contexts the accidental racism is innocent or tenuous, or that it's not racism. We know. It's accidental. These comments will be removed. Repeat offenders may be banned.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/AccidentalRacism) if you have any questions or concerns.*",neg
+224,0.0,0.628,0.372,0.7964,Some races are better than others.  Personally I think the steeplechase is the greatest race.,pos
+225,0.0,0.577,0.423,0.296,This is a [CollegeHumor](https://youtu.be/slT5WcWNq_s) joke,pos
+226,0.16,0.494,0.346,0.3612,I don’t think this was accidental. Lol,pos
+227,0.0,0.737,0.263,0.3612,I know of an Austrian painter who would agree,pos
+228,0.0,1.0,0.0,0.0,🤦🏻‍♀️,neu
+229,0.0,1.0,0.0,0.0,And always [Remember the Goal](https://app.pureflix.com/videos/262985254626/remember-the-goal)!,neu
+230,0.0,1.0,0.0,0.0,Everyone knows that America's dominant race is the 100 metre butterfly.,neu
+231,0.0,1.0,0.0,0.0,I saw that film AMA,neu
+232,0.127,0.873,0.0,-0.2244,oh no! They knew ... unless you are not living in 2023 but Mars,neg
+233,0.0,1.0,0.0,0.0,"this reminded me of that f1 sub post ""if you could eliminate one race, which one would it be? personally it would be the Monaco Race...""",neu
+234,0.116,0.884,0.0,-0.3612,"Reminds me of that guy on Tinder who said he was a racist, but he actually meant that he was a racer.",neg
+235,0.0,1.0,0.0,0.0,I much prefer the three legged race tbh,neu
+236,0.086,0.557,0.357,0.8934,"I agree with the statement about some races being better than others, but disagree with your preference. I believe that WTCR is the superior race. Formula is also great.",pos
+237,0.0,1.0,0.0,0.0,"What?
+
+https://m.imdb.com/title/tt6923892/",neu
+238,0.412,0.588,0.0,-0.1027,"nah, they knew",neu
+239,0.0,0.536,0.464,0.7774,"Yeah, this reads more like ""dogwhistle"" and less like ""accident"" to me.",pos
+240,0.517,0.483,0.0,-0.5064,"Nah, she's not a real blonde. LOL",neg
+241,0.091,0.909,0.0,-0.0516,Did it leave burning questions that needed to be answered by the sequel?,neu
+242,0.0,1.0,0.0,0.0,"Which ""three legged race"" are you talking about? The one with two runners having their legs tied, the one with one-legged runners on crutches or the one with well-endowed runners? >!Or the one with appropriately-endowed runners with very short legs?!<",neu
+243,0.0,1.0,0.0,0.0,[removed by reddit],neu
+244,0.121,0.773,0.105,-0.0754,No I know it's a real movie. I'm saying this is the kind of joke [CollegeHumor](https://youtu.be/eVlREIXLh_w?t=7212) would make,neu
+245,0.0,1.0,0.0,0.0,Neither was the Austrian painter. His & his party's ideology wasn't very consistent.,neu
+246,0.0,0.844,0.156,0.4515,(spoiler alert) where did the new coach go next? does the old coach make it out alive?,pos
+247,0.0,1.0,0.0,0.0,"All of the above, I don't discriminate",neu
+248,0.0,0.82,0.18,0.296,Oh I thought you meant it was a joke that CollegeHumor put out.,pos
+249,0.0,0.0,1.0,0.4215,True.,pos
+250,0.0,0.72,0.28,0.765,"Good choice, if you meant ""any of the above"".
+
+Excellent choice, if you meant ""all of the above combined"".",pos
+251,0.388,0.612,0.0,-0.4215,"Nah, my mistake. I'll edit it to clarify",neg
+252,0.0,1.0,0.0,0.0,Both,neu
+253,0.25,0.632,0.119,-0.9753,"To all those viewing this thread, welcome. Please keep in mind that this subreddit is called **/r/AccidentalRacism**. It's for pictures of things that **are not actually racist** but in a certain connotation can be taken the wrong way.
+
+Please report any *actual racism* to the mods. Actual racism will result in a permanent ban.
+
+Further, please report any comments where anyone is complaining that in some contexts the accidental racism is innocent or tenuous, or that it's not racism. We know. It's accidental. These comments will be removed. Repeat offenders may be banned.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/AccidentalRacism) if you have any questions or concerns.*",neg
+254,0.663,0.337,0.0,-0.8957,When the idea of your accidental racism is accidentally racist,neg
+255,0.221,0.779,0.0,-0.8979,"80% of this sub is OPs outing themselves as racist
+
+The rest 10% bad ads, 8% non American stuff that seems questionable if you filter it through the idea that America is the only place that exists and there are no other cultures, and 2% blackface",neg
+256,0.25,0.75,0.0,-0.6124,This is going right over my head. Which of the words is racist?,neg
+257,0.057,0.943,0.0,-0.235,"In the UK it's really common to refer to cheeky/mischievous children as ""little monkey"". There's no racial element to it what-so-ever. Where is this trampoline with which these people are making this leap?",neg
+258,0.126,0.54,0.334,0.8986,"This is funny and I agree, but for the record please don't make posts like this too often. With the amount of stupid people posting in this subreddit, we'd have more posts making fun of them than original content lmfao.",pos
+259,0.04,0.851,0.11,0.6911,"im not a native english speaker and this post is such a messsssssss. i get it that the association between monkeys and black people is hella problematic, but in what world ""monkey"" AKA the animal, is synonim with all those other words?  
+
+i'd say they are monkey descriptors At Best.",pos
+260,0.354,0.59,0.057,-0.9201,"I don't think ""remembering something racist other people think"" automatically makes you a racist. I'm sure a lot of us have heard that same tired ass comparison to monkeys at least once.",neg
+261,0.0,1.0,0.0,0.0,Exactly,neu
+262,0.178,0.822,0.0,-0.3818,I disagree. Knowing what stereotypes are does not mean you believe in said stereotypes.,neg
+263,0.0,1.0,0.0,0.0,[deleted],neu
+264,0.0,1.0,0.0,0.0,what?,neu
+265,0.0,0.901,0.099,0.3182,"Has the original OP never heard of Monkey being used as a man adverb? 
+
+is; My classmates and I were monkeying around before school.",pos
+266,0.323,0.677,0.0,-0.8442,"If he’s directing it at black people, then it’s non-accidental racism. If not, then it’s only racist toward monkeys.",neg
+267,0.166,0.771,0.063,-0.9401,"I don’t think the OP is racist. I would expect the synonyms to be stuff like primate, chimpanzee, etc. 
+
+This is giving you synonyms for the most racially charged way to use the word, describing others as monkey-like, and ascribing criminal intent with all of the synonyms. 
+
+“There were some absolute rascals on Main Street.” Vs “There were some absolute monkeys on Main Street.” 
+
+I think the OP is just American because calling people monkeys here would definitely get you a double look and a side eye. It’s hard to separate from the racist insults that are commonly used here. It would be tough for me to think of any appropriate use case for how monkey is defined here without being accused of racism or at least introducing a very awkward racial undertone to the conversation.",neg
+268,0.0,1.0,0.0,0.0,Based grammarly,neu
+269,0.0,1.0,0.0,0.0,zero mention of black people until the comment,neu
+270,0.268,0.732,0.0,-0.296,"No, the commenter did. And then you.",neg
+271,0.0,1.0,0.0,0.0,Woah... I'm in that screenshot,neu
+272,0.0,1.0,0.0,0.0,And 15% concentrated power of will,neu
+273,0.0,0.635,0.365,0.5574,You forgot fixtures that look like swastikas from a certain angle,pos
+274,0.0,1.0,0.0,0.0,r/usdefaultism,neu
+275,0.407,0.593,0.0,-0.7579,None. But what the OP is implying is racist.,neg
+276,0.104,0.853,0.043,-0.5994,"They aren't saying the words are racist lol.
+
+Nobody in the comments, or the OP, said a damn thing about black people. The commenter just saw those words, including ""monkey""....and automatically jumped to ""black people"". They outed themselves. 
+*They* made the association, not anyone else. If you see those words and jump to ""black people""...yeah, you may be a bigot.",neg
+277,0.0,1.0,0.0,0.0,[deleted],neu
+278,0.0,0.892,0.108,0.4404,"Basically, you can describe people who are messing around as “monkeying around.” You can call children little monkeys because they’re climbing around and being energetic.",pos
+279,0.0,1.0,0.0,0.0,"It's common to call someone a monkey as a metaphor. Calling them any of those suggested words would have the same effect/meaning. So, synonym.",neu
+280,0.357,0.585,0.058,-0.97,"But conjuring that racist thing and applying it to a race when nothing about a race or even individual human was ever mentioned or implied, and clearly wasn't the intent, is racist. 
+
+And it doesn't make you a racist, but it is a racist thought.",neg
+281,0.439,0.561,0.0,-0.8625,but the post claims that describing a monkey as a rascal is accidentally racist somehow,neg
+282,0.0,1.0,0.0,0.0,it's called inference. why else would that screenshot have been posted to r/accidentalracism?,neu
+283,0.198,0.802,0.0,-0.9305,"This is what got: OP thought that the synonyms were ""questionable"" ans posted them on r/AccidentalRacism and by doing so exposed themselves to be racist because there was nothing racist about it to begin with, automatically attaching the word ""monkey"" to black people and thus ""questioning"" grammarly's intentions is the actual racism, at least that what the bottom commentator said.",neg
+284,0.268,0.664,0.068,-0.873,"The OP is ""accidental racist"" in the the sense of the sub, not actually racist. They are so focused how ""monkey"" could be used in a racist context that they don't consider how it is used in a non-racist context.",neg
+285,0.25,0.263,0.487,0.4215,don’t forget 5% pleasure,pos
+286,0.0,1.0,0.0,0.0,r/unexpectedfortminor,neu
+287,0.0,0.787,0.213,0.7579,"I had swastikas mixed in with non American things, as they're still a thing in India and parts of east Asia because buddhism, but yeah that's true too",pos
+288,0.0,1.0,0.0,0.0,And also any instance of the letter N.,neu
+289,0.0,1.0,0.0,0.0,"Ah! The ""Implication""....",neu
+290,0.286,0.714,0.0,-0.6124,Spell it out for me. How did OP imply anything racist?,neg
+291,0.147,0.794,0.059,-0.761,"I think the op is implied to believe that those words correlate to black people, otherwise they wouldn't have posted it. Because monkeys are all those things, theyre silly little troublemakers, fun rascals, and scamps. But, somehow, the op gleamed some form of racism from it?",neg
+292,0.135,0.83,0.036,-0.7744,"> They aren't saying the words are racist lol
+
+They put it in r/accidentalracism. Accidental. *Racism*. Why do you think they posted it in this sub, if they did not think the words ""monkey"" and ""scoundrel"" together had some racial connotation? Is the qwerty row on their keyboard somehow racially charged? Did they choose a random sub out of a hat to post a meaningless screenshot of their keyboard to? I mean come on dude",neg
+293,0.0,0.969,0.031,0.3612,"I think the idea is that the only time anyone would call a “rascal” a “monkey” is if the rascal happened to be black (or asian apparently, as I just today saw a video of someone hate-harassing an Asian woman and using the word towards her)
+
+Other than in sayings like “not my monkey not my circus” or “they’re monkeying around”, or to infants/toddlers “being a little monkey” for climbing on things, I’ve never EVER heard anyone call a person a monkey *without* it being a racial slur",pos
+294,0.111,0.889,0.0,-0.3612,"The OP making that connection is racist but have you never heard of “monkeying around”? 
+
+Coming from USA, you catch up.",neg
+295,0.112,0.744,0.143,0.0516,"Dude I’m pretty sure he’s agreeing with you saying that the original OP was racist by posting that here, not calling you out.
+
+Although if there’s any country that really needs to catch up with idea that they’re not the whole world, it’s the USA, as a lot of posts here aren’t racist if you don’t live in the USA.",neu
+296,0.325,0.675,0.0,-0.9178,"No, its making a connection between common stereotypes. Accidentally racist isnt used literally in this sub. Its things that arent actually racist, but instead are things you could find racism in if you really stretched.",neg
+297,0.0,0.312,0.688,0.296,yeah I guess,pos
+298,0.767,0.233,0.0,-0.5106,50% pain,neg
+299,0.0,0.741,0.259,0.2732,oh my god this is a real sub,pos
+300,0.0,1.0,0.0,0.0,"Because of the implication 
+
+\>Intense stare",neu
+301,0.292,0.708,0.0,-0.8133,"the reason it's kinda racist because nothing in what OP posted was racist. OP is implying that: 
+
+monkey/scoundrel = Black People",neg
+302,0.286,0.714,0.0,-0.6124,Yea exactly it's the commentator whos being racist not the op,neg
+303,0.06,0.794,0.146,0.5525,"Again, WHO said anything about Black people?
+
+Edit: So, no actual answers, just downvotes? Anyone care to answer? Where were Black people mentioned? And why is assuming those words equate to Black people okay with you?",pos
+304,0.12,0.763,0.117,-0.0207,"The words aren't racist. The implication is. 
+
+Example: Your brain is the size of a pea
+
+Which word is an insult in that statement?",neu
+305,0.047,0.714,0.239,0.8402,">I’ve never EVER heard anyone call a person a monkey without it being a racial slur
+
+  
+That is pretty surprising to me. It's very common near me to say somebody is being a monkey if they are being silly or annoying. My sister in law says it like every day, ha ha",pos
+306,0.116,0.712,0.173,0.5023,"I've heard people call their adult children their little monkey but I think that's just a childhood nickname that stuck, I feel like it is definitely weird if it isn't some form of parental relationship",pos
+307,0.0,1.0,0.0,0.0,Edward famously called Bella his little spider monkey,neu
+308,0.085,0.869,0.046,-0.5187,"I'll just up and say you have the right answer. These are weird synonyms to be referring to an actual monkey. Anyone that accuses me of being racist is ignorant to the fact that this is a racial slur and those ""synonyms"" are not referring to the use of the word as an adverb or adjective but as a noun. Those nouns are not interchangeable with a literal monkey. If I sent this to Grammarly I can guarantee they would change their programming to omit these particular synonyms for the noun monkey... 
+
+Why do I know monkey is a racial slur? Not because I ""make the connection"" or associate it with brown/black people, but because I have corrected people who have used this as a slur and I think it's disgusting.
+
+TLDR: thanks for not being a fucking idiot...",neg
+309,0.0,1.0,0.0,0.0,[deleted],neu
+310,0.0,1.0,0.0,0.0,And 100% reason to remember the name,neu
+311,0.444,0.247,0.309,-0.2732,"Holy shit, thank you.",neg
+312,0.355,0.645,0.0,-0.296,"No, you made that implication.",neg
+313,0.181,0.705,0.114,-0.4767,But the op posted that on accidentalracism. If youre smart you wouldnt be able to get racism from those suggestions but op somehow did,neg
+314,0.146,0.775,0.079,-0.6908,"Technically the truth answer: the commentor in the screenshot.
+
+And why did he mention black people you may ask?
+
+Well OP posted it on /r/accidentalRacism when the only racist thing was actually in the OP's mind = correlating monkeys with the most common target of racism, **black people.**",neg
+315,0.0,1.0,0.0,0.0,"Uhh, mate, you're on a sub called ""accidentalracism""",neu
+316,0.279,0.721,0.0,-0.7351,because you wouldn't post in this sub if you were worried about the phone being racist against monkeys?,neg
+317,0.0,1.0,0.0,0.0,OP did.,neu
+318,0.0,0.887,0.113,0.3182,its the implication. what do you think that the original op meant? there's very little to the imagination here,pos
+319,0.051,0.838,0.11,0.533,"The words don't imply anything, saying that rascal is a synonym for monkey isn't racist as many monkey could be accurately described as rascals. OOP posting that to this subreddit means that the first thing they thought of when seeing the words monkey, rascal, troublemaker, etc. was black people, this makes OOP racist.",pos
+320,0.0,1.0,0.0,0.0,[This comment just makes me think of this.](https://youtu.be/x27Kg_Ep5OU?t=1m46s),neu
+321,0.03,0.847,0.123,0.743,">I think that's just a childhood nickname that stuck
+
+Yeah, my family still calls my 30+ year old sister a monkey for that reason. Just this afternoon, my mom saw an ad for something called ""Monkey Munch"" and shared a screenshot in our family group chat, saying it was perfect for my sister.
+
+(My sister is white with blonde hair and blue eyes, BTW.)",pos
+322,0.083,0.917,0.0,-0.4588,"The word ""monkey"" can be more than just an animal. It is commonly used (maybe regionally) to refer to somebody being a troublemaker. In that context, it is synonymous with everything listed on that page.",neg
+323,0.0,1.0,0.0,0.0,I just assumed they were talking about literal monkeys. Have you ever spent time round monkeys? Eg travelling in India. They are all those things,neu
+324,0.106,0.894,0.0,-0.3612,It's neither an actual monkey nor a racial slur in this case. It's the kind of monkey that's a little kid up to mischief.,neg
+325,0.0,1.0,0.0,0.0,So you respond to that with an unrelated statement about reddit?,neu
+326,0.0,1.0,0.0,0.0,MIKE,neu
+327,0.21,0.675,0.114,-0.6597,"no i didn't??? OP posted something that didn't have anything racist on it, on r/accidentalracism the only way it could be ""accidentally racist"" is if OP thought that
+monkey and scoundrel refers to black people
+if your gonna be a smartass, atleast do it right dumbass.",neg
+328,0.0,1.0,0.0,0.0,r/therewasanattempt,neu
+329,0.0,1.0,0.0,0.0,"At least in the USA, that would be extremely abnormal
+
+If you call a person a monkey here, everyone would assume it was a slur",neu
+330,0.0,1.0,0.0,0.0,HE DOESN'T NEED HIS NAME UP IN LIGHTS HE JUST WANTS TO BE HEARD,neu
+331,0.143,0.857,0.0,-0.5423,"Of, my bad. I didn't notice it was a meta post. Should make it a bit clearer that it was originally posted for this sub",neg
+332,0.0,0.625,0.375,0.34,"I'm in the us, ha",pos
+333,0.0,0.948,0.052,0.4019,"Think of it in the context of a parent calling their child a ""little monkey."" It's not a racial slur in that context, and usually means the kid is climbing on things and/or being mischievous. I've definitely heard it used that way in the US both on TV and in my own family.",pos
+334,0.0,0.577,0.423,0.296,Yeah i already said that,pos
+335,0.0,1.0,0.0,0.0,Not in the comment I replied to. Was I supposed to read every comment on this post before replying to any?,neu
+336,0.148,0.775,0.077,-0.7457,">The outpouring of support for the Quiñones family and their business has been a silver lining, said Bellew, who hasn’t been in contact with them since police barred her from visiting Amy’s Family Pizzeria.
+
+Translation: ""See, I really did them a favor!"" 
+
+Although it could be argued that Bellew has no right any longer to be heard about the aftermath of her rant, I'm glad the reporter included this final delusional assertion from the perpetrator, because it should show the judge that she has no real regrets and hasn't learned a damn thing.",neg
+337,0.0,1.0,0.0,0.0,"For geographical context, Hatboro is a suburb of Philadelphia.",neu
+338,0.0,1.0,0.0,0.0,So does *almost* every PD.,neu
+339,0.0,0.607,0.393,0.6688,Well I could have told them that! They act like this is a startling discovery!,pos
+340,0.0,0.874,0.126,0.0772,"The only question is, how will people excuse it now?",neu
+341,0.0,1.0,0.0,0.0,Which ones don't?,neu
+342,0.148,0.701,0.151,0.0258,"The point is who is willing to pay $40M (plus the existing police budget) for violence against Black people? When people say they support the police, they are supporting that.",neu
+343,0.351,0.649,0.0,-0.6597,"Tbh, idk if any…I was just defending against the inevitable racist troll.",neg
+344,0.296,0.704,0.0,-0.7096,"You don't have to hedge your statements here, especially since police departments exist to monopolize violence.",neg
+345,0.0,1.0,0.0,0.0,"Report them to the local news, anonymously.",neu
+346,0.177,0.663,0.16,-0.1531,"To be honest, you need to organise 
+
+Find other people who are just as shocked as you.
+
+Find potential supports.
+
+News reporters
+
+University professors who write about racism.",neu
+347,0.0,1.0,0.0,0.0,"What is your position at the school? Teacher, student, parent, admin? Advice would depend on that info.",neu
+348,0.188,0.725,0.087,-0.7981,"Do you live in America? Specifically the south? I’m from Canada and this shit would not fly here despite our unfortunate “subtle “ racism problem. It’s more baked into the structure of society. Everyone’s nice on the outside. On the inside is a different story, they just won’t let you know.",neg
+349,0.0,1.0,0.0,0.0,Go to the governers and the local council.,neu
+350,0.0,0.852,0.148,0.7083,"Honestly, if she didn't, the teacher should have run it past the administration before talking to the students. But, she did the right thing and should not have been fired, only reprimanded for not clearing it.",pos
+351,0.052,0.844,0.104,0.8646,"I come across behavior like this regularly. My first inclination is to say that this is an example of a group of people who are aloof/unaware of others in their environment. They ARE the party. As long as their behavior is implicitly accepted by those in THEIR group, they see it as being okay. That said, I often wonder if, seeing that your group was BIPOC, they felt they had the right to set their glasses on your table, ie: that your comfort/enjoyment wasn't even a thought/consideration. Reminds me of the time I was once walking through a mall and a white woman who was promoting some event or cause came up to me and stuck a sticker on my overcoat. Didn't matter if I supported what she was promoting or whether I wanted her to touch me. She and her friend felt entitled to invade my space and potentially stain my coat. She looked indignant when I caught up to her, took the sticker she put on me, and stuck it on her, as though to say ""how dare YOU touch ME.""",pos
+352,0.13,0.507,0.362,0.4939,"the empty glasses - likely
+
+&#x200B;
+
+the noises - yes for sure",pos
+353,0.155,0.504,0.34,0.5819,"I would say trust your instinct. If you felt it was, there's a very good chance it was racist.",pos
+354,0.261,0.679,0.06,-0.8126,It's highly likely. I am a white guy and I have been hearing and confronting all types of racist comments over the past 6-7 years. Trump made it ok to be racist.,neg
+355,0.333,0.667,0.0,-0.6124,Dude has been a known massive racist for fucking years.,neg
+356,0.0,1.0,0.0,0.0,finally!,neu
+357,0.0,1.0,0.0,0.0,Have they not been paying attention to him? He’s been garbage for quite a long time.,neu
+358,0.0,1.0,0.0,0.0,First he concerned the COVID vaccine... Now this. 😱,neu
+359,0.06,0.94,0.0,-0.2263,"I think he slid into oblivion when I stopped reading the newspaper, only going for the digital formats. He can't say that stuff, then backtrack and try to say what he really meant.",neg
+360,0.073,0.879,0.048,-0.5337,"Has anyone seen any media covering the racism inherent in the poll itself? I haven’t seen any investigation or mention of this. Rasmussen was clearly trying to create this exact type of reaction when it ran this survey. 
+
+The survey only had TWO questions, about whether Black people can be racist and about whether it’s okay to be white:
+
+https://www.rasmussenreports.com/public_content/lifestyle/general_lifestyle/january_2023/not_woke_yet_most_voters_reject_anti_white_beliefs
+
+Additionally, they didn’t give a sample size for how many Black people were included in this survey, so for the responses Adams takes issues with, we could be talking 120 people or less, which I doubt is reliably representative.
+
+The question is also so vague as to be meaningless, and could be interpreted several different ways.
+
+Finally, but most tellingly, the wording of the question itself is actually a white supremacist troll campaign:
+
+https://en.m.wikipedia.org/wiki/It%27s_okay_to_be_white",neg
+361,0.0,1.0,0.0,0.0,"Title should be ""Latest racial tirade""",neu
+362,0.252,0.748,0.0,-0.5768,I’m so sorry you had that experience! This is not ok and please address this to your colleagues/ manager etc.,neg
+363,0.055,0.667,0.278,0.8537,"Workout and study like hell. People will make fun of you because they know you’re better than their bigotry. Also try talking to them like they’re you friend. Can’t describe it but I think you know what I mean. 
+It’s a game of confidence",pos
+364,0.0,0.892,0.108,0.8276,"You can say ""that's not funny"". Direct and challenging it gives an opportunity for him to apologize. If he does not you can figure out the next move.
+
+Could also ask what he means by that. The initial greeting has plausible deniability but the second statement much less so. But this gives him a lot more room to make excuses. I only use this for closer friends to give them time to think about it.
+
+Do you have to keep encountering this person? What is your relationship with the person you are both linked to?",pos
+365,0.124,0.76,0.116,-0.0516,"""Are you listening to yourself?"" is useful. If this person has any capacity for insight or shame, this will reveal it.",neu
+366,0.165,0.746,0.089,-0.8073,"Maybe ask him to explain his behavior. Don't state accusations as statements. Only ask questions and demand answers. For every insult, demand an explanation. 
+
+- ""Why do you insult me? What do you hope to accomplish?"" Then look at him waiting for an answer. 
+
+- ""Why did you say that?"" Demand an answer. 
+
+- If he refuses to answer with an explanation, ask, ""Why can't you explain your behavior? Do you not know why you insult (verbally assault) me?"" Demand an answer. 
+
+If he does respond with a real explanation rather than another insult, respond with intelligent kindness to establish basis for a new relationship. 
+
+Just an idea.",neg
+367,0.0,0.853,0.147,0.2732,"""I don't get it. What do you mean?""
+
+However he explains it, repeat that until he convinces himself to apologize.",pos
+368,0.068,0.813,0.119,0.7673,"I would be upfront and direct by saying “don’t say that.” “That’s a bad joke” “ I don’t like it when you say that” “shut up” “stop being an ass”
+
+Some of these comments are saying to question him and I would advise against it. You don’t need to know why he’s saying these things. You know why. Let him know you’re not okay with it and keep that boundary.
+
+By questioning why someone is doing something that isn’t nice it give them an opportunity to manipulate, place the blame elsewhere or shrug it off like it’s not big deal like “it’s a joke”. You don’t need to question him when you know you don’t like it so listen to yourself. Not him.",pos
+369,0.245,0.619,0.136,-0.8391,"The question is: Why is no one else reacting to this? I'd involve my friend(s) and tell them that I don't find it funny. 
+
+If you're not a fan of direct confrontation: Ask them to explain the joke. Play dumb. Innocently say ""I don't get why this is funny. Can you explain your joke"" - 9/10 times they will feel awkward trying to explain their racist jokes.",neg
+370,0.183,0.707,0.11,-0.4986,"I would confront the person directly. I don't care where you from, racism is a no. Ask them what they mean by the comment/ joke/ statement. 
+
+I would also address your friend, and ask why they didn't step in. They could atleast tell their friend to tone it down, it's disrespectful.",neg
+371,0.0,0.758,0.242,0.4939,What does your mutual friend have to say about all this?,pos
+372,0.186,0.675,0.139,-0.0082,Just be fucking mean. Be rude towards them. It’s unfortunate but you got to play rough against rough.,neu
+373,0.122,0.836,0.042,-0.6369,"9/10 in my experience, when someone has said something racist to me, unless there is another black person near by, no one says anything. I have always had to defend myself. 
+
+I have had to seriously think about my relationships with people I have know for many years and do some of them. Very rarely there is a ally to help you.",neg
+374,0.0,0.606,0.394,0.5994,Those Shaniquas are whales and degenerates lmao,pos
+375,0.066,0.841,0.093,0.0516,"That's why nobody finds them attractive. Imagine being genetically predisposed at birth to be an obnoxious loudmouth monkey that only knows how to break the law and defy authority by any means, nobody wants a loud and domineering ape anywhere near them",neu
+376,0.0,0.886,0.114,0.4973,"If someone says “I’m gonna call the police,” it’s not racist to respond “Call the president. I don’t care.” This video was filmed when Obama was president",pos
+377,0.073,0.665,0.263,0.7184,At this point it's pretty clear Biden has isolated us on the world stage.  It seems like nations that are  allying with China is escalating.,pos
+378,0.0,0.826,0.174,0.2732,"Agreed 👍🏾, This has happened to my wife so many times",pos
+379,0.099,0.89,0.011,-0.8718,"Sadly every woman I know has faced this situation - there is loads of data backing it up. I can imagine it’s even more horrific for black and Indigenous women. Not to mention that most drug testing is on men so women tend to be over medicated as dosages aren’t tested for women and also don’t account for our hormones. (Women are more likely to experience adverse side effects)
+It took me 4 years to get one of my diagnosis. When I was loosing the use of my right leg the doctor gave me a handout on deep breathing exercises.",neg
+380,0.0,1.0,0.0,0.0,r/MixedRaceAndProud Lounge,neu
+381,0.104,0.728,0.168,0.3004,"""I can't be racist my partner is Asian"". List of white supremacists married to Asian women.",pos
+382,0.444,0.556,0.0,-0.6124,Racist disapproves of AM dating WF,neg
+383,0.143,0.857,0.0,-0.6124,"""Racist white poster [...] /u/JimCanuck boasts of how Asian women won't date Asian men, and brags about how his son doesn't look Asian at all""",neg
+384,0.324,0.676,0.0,-0.802,"Racist troll tries to imply Asian men are pedophiles, gets destroyed by Japanese hapa male with facts",neg
+385,0.234,0.625,0.141,-0.6126,"""Went too far on a racist guy, feeling conflicted nowz."" Why do racists always gang up on Asian men. Why is it never 1:1? Pathetic.",neg
+386,0.371,0.629,0.0,-0.9476,"One of the most racist moments on TV from ""Nathan For You"". The Asian man is the only group of people you can be racist against with no consequence. This is hate propaganda.",neg
+387,0.204,0.796,0.0,-0.7096,"'Politician in New Jersey writes a book full of racism and bigotry. When confronted he invokes the, ""my wife is asian, my kids are asian"" defense.'",neg
+388,0.409,0.591,0.0,-0.8225,"""College Republican President attends Charlottesville Neo-Nazi Rally"" says racist shit. Has Asian gf.",neg
+389,0.471,0.529,0.0,-0.8658,"No Rice, No Curry And No Blacks: The Sexual Racism Running Rampant Within the LGBT Community",neg
+390,0.0,0.803,0.197,0.4019,Little Mermaid is now Asian. Interesting. I wonder what race Poseidon will be.,pos
+391,0.404,0.596,0.0,-0.91,"'Racist [liberal white] guy who posted racist comments against Asian[men] in the ""fuck foreigners"" music video is in a WMAW relationship'",neg
+392,0.235,0.765,0.0,-0.6124,White man says Asian girl is racist because she is dating an Asian man,neg
+393,0.0,0.7,0.3,0.4588,"/r/mixedrace — Welcome, and a reminder about rules and moderation",pos
+394,0.406,0.594,0.0,-0.6249,What has been your experience with racism?,neg
+395,0.175,0.566,0.259,0.2023,"Pretty sure my parents married each other because they have a race fetish, and I hate it.",pos
+396,0.339,0.661,0.0,-0.6249,"Mixed Asians, what are your experiences dealing with racism?",neg
+397,0.073,0.661,0.266,0.6428,"between 1935 and 1976 Sweden conducted forced sterilizations on Mixedrace and other groups to create a ""healthy society""/old story but good to remember",pos
+398,0.0,1.0,0.0,0.0,“Changing races”,neu
+399,0.0,1.0,0.0,0.0,@ biracial black/white thoughts: on other races perceptions on the black community?,neu
+400,0.133,0.867,0.0,-0.3182,Do you ever get confused for a race your not or not believe your mixed with something.,neg
+401,0.0,1.0,0.0,0.0,What race/ethnic combo can or should i claim?,neu
+402,0.227,0.416,0.357,0.4781,"Rule VII reminder: NO COMPLAINING THAT POSTS AREN'T RACIST. No shit, Sherlock. NOTHING here is.",pos
+403,0.0,1.0,0.0,0.0,Other races available too.,neu
+404,0.0,0.351,0.649,0.5719,The Perfect Race,pos
+405,0.5,0.5,0.0,-0.6124,OP outs themselves as racist,neg
+406,0.369,0.631,0.0,-0.6249,Racism in Italy and the Italian-Chinese Minority (2022),neg
+407,0.369,0.631,0.0,-0.6249,April 2023 – Eradicating Racism: A Path Forward Learning Series,neg
+408,0.502,0.498,0.0,-0.9022,"Rita Bellew, from Amy's Family Pizzeria racist video, charged with ethnic intimidation, harassment in Hatboro, Pennsylvania",neg
+409,0.0,1.0,0.0,0.0,"Louisville Metro Police Department uses 'excessive force' and 'unlawfully discriminates against Black people,' DOJ report says",neu
+410,0.451,0.549,0.0,-0.6249,How to approach a school about racism?,neg
+411,0.451,0.549,0.0,-0.6249,Am I experiencing racism on a night out?,neg
+412,0.337,0.663,0.0,-0.7269,Hundreds of newspapers drop 'Dilbert' comic strip after racist tirade from creator Scott Adams,neg
+413,0.369,0.631,0.0,-0.6249,How should I respond to anti-asian racism in school?,neg
+414,0.335,0.541,0.124,-0.5994,High school students responsible for racist video no longer enrolled at school | CNN,neg
+415,0.233,0.581,0.186,-0.2023,My friend’s friend is racist towards me. How do I deal with it?,neg
+416,0.577,0.423,0.0,-0.6249,The costs of racism,neg
+417,0.4,0.6,0.0,-0.6124,Racist Shaniquas yell slurs at Hispanic man,neg
+418,0.0,1.0,0.0,0.0,Current state of US race relations,neu
+419,0.246,0.754,0.0,-0.8689,"When White people kill someone who isn’t White, the media will mention the killer’s race in the headline. But the media won’t do that when the killer is Black",neg
+420,0.358,0.642,0.0,-0.891,A Black man beat an elderly Asian man to death. I was banned from r/nyc for asking what the race of the attacker was,neg
+421,0.109,0.891,0.0,-0.296,Oil market braces for volatile open after Saudi Arabia leads coordinated OPEC+ cuts totaling more than 1 million barrels a day,neg
+422,0.0,0.937,0.063,0.3182,"Race to zero: Can California’s power grid handle a 15-fold increase in electric cars? BY NADIA LOPEZ, CalMatters Despite expecting 12.5 million electric cars by 2035, California officials insist that the grid can provide enough electricity.",pos
+423,0.154,0.736,0.109,-0.2688,"I'm not sure if this has been discussed before, but this clip gives an excellent perspective of how physicians often dismiss black women for their concerns regarding their health. Currently doing a write-up about institutionalized racism in medicine.",neg

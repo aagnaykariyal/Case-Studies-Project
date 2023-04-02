@@ -43,7 +43,7 @@ data = {}
 
 for sreddit in potential_subreddits:
     subreddit = reddit.subreddit(sreddit)
-    for submission in subreddit.hot(limit=50):  # 6 posts and 50 comments
+    for submission in subreddit.hot(limit=50):
         for word in words:
             if word.lower() in submission.title.lower():  # Comparing data with our dataset
                 data[submission.id] = submission.title    # Inserting posts and their id to a dict
