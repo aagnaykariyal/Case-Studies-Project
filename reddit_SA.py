@@ -1,25 +1,15 @@
-import praw  # Reddit crawler
+import praw                         # Reddit crawler
 import pandas as pd
 import numpy as np
 import seaborn as sns
 import colorsys
+import nltk
 from matplotlib import colors
-import emoji
-import re
-# import en_core_web_sm
-import spacy
-
-
-import datetime as dt
 from pprint import pprint
 from itertools import chain
-
-from praw.models import MoreComments
-
-import nltk
 from nltk.corpus import stopwords
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
-from nltk.tokenize import RegexpTokenizer  # tokenize words
+from wordcloud import WordCloud
 
 # ------ Downloading datasets ------#
 # nltk.download('vader_lexicon')
@@ -27,10 +17,8 @@ from nltk.tokenize import RegexpTokenizer  # tokenize words
 # nltk.download('stopwords')
 
 import matplotlib.pyplot as plt
-plt.rcParams["figure.figsize"] = (10, 8) # default plot size
+plt.rcParams["figure.figsize"] = (10, 8)  # default plot size
 sns.set(style='whitegrid', palette='Dark2')
-
-from wordcloud import WordCloud, ImageColorGenerator
 
 # ------------- End of Libraries ---------------#
 
@@ -49,27 +37,23 @@ potential_subreddits = ["pharma", "RaceAndIntelligence", "MixedRaceAndProud", "B
                         "CitizensJournal", "AMillionLittleThings"]
 
 
-words = ["Race", "Racist", "Black People", "Racism"]
+words = ["Race", "Racist", "Black People", "Racism"]  # Words to filter
 
 data = {}
 
 for sreddit in potential_subreddits:
     subreddit = reddit.subreddit(sreddit)
     for submission in subreddit.hot(limit=50):  # 6 posts and 50 comments
-        # print(submission.title)
-        # print('Submission ID: ', submission.id, '\n')
         for word in words:
-            if word.lower() in submission.title.lower():
-                data[submission.id] = submission.title
-            else:
-                None
+            if word.lower() in submission.title.lower():  # Comparing data with our dataset
+                data[submission.id] = submission.title    # Inserting posts and their id to a dict
 
-sub_id = list(data.keys())
-posts = list(data.values())
+sub_id = list(data.keys())  # Submission ID of each post
+posts = list(data.values())  # List of all posts
 
 All_Comments = []
 
-for sid in sub_id:
+for sid in sub_id:  # Loop to iterate through the comments of all posts
     post1 = reddit.submission(id=sid)
 
     post1.comments.replace_more(limit=None)
@@ -79,15 +63,15 @@ for sid in sub_id:
 print('Total posts scraped = ', len(posts))
 print('Total comments scraped = ', (len(All_Comments)))
 
-sid = SentimentIntensityAnalyzer()
+sid = SentimentIntensityAnalyzer()  # Assigning Vader Sentiment Analyzer
 
-main_data = []
+main_data = []  # Creating a List to accomodate both posts and comments
 for data in All_Comments:
     main_data.append(data)
 for data in posts:
     main_data.append(data)
 
-sa = []
+sa = []  # Creating a List to accomodate the polarity scores of the posts and comments
 for dat in main_data:
     sc = sid.polarity_scores(dat)
     sa.append(sc)
@@ -95,95 +79,71 @@ for dat in main_data:
 print('The amount of responses = ', len(sa))
 pprint(sa[:3])
 
-sentiment_df = pd.DataFrame.from_records(sa)
-sentiment_df['title'] = main_data
-pprint(sentiment_df)
+sentiment_df = pd.DataFrame.from_records(sa)  # Creating a DataFrame from the polarity data
+sentiment_df['title'] = main_data  # Inserting posts and comments in a column called title
 
-THRESHOLD = 0.2
-conditions = [
+THRESHOLD = 0.2  # Threshold to help assign values
+conditions = [  # Conditions to help determine values
     (sentiment_df['compound'] <= -THRESHOLD),
     ((sentiment_df['compound'] > -THRESHOLD) & (sentiment_df['compound'] < THRESHOLD)),
     (sentiment_df['compound'] >= THRESHOLD),
 ]
 
 values = ['neg', 'neu', 'pos']
-sentiment_df['label'] = np.select(conditions, values)
+sentiment_df['label'] = np.select(conditions, values)  # Insertion of values according to the polarity score using numpy
 # nums = np.select(conditions, values)
 # pprint(sentiment_df)
 
-count = sentiment_df.label.value_counts()
+count = sentiment_df.label.value_counts()  # Doing the count of the polarity scores according to the values
 pprint(count)
-
-
-# sns.histplot(sentiment_df.label)
-
-# ------ This code was used to check if the sentiment was accurate ------#
-
-#
-#
-# def news_title_output(df, label):
-#     res = df[df['label'] == label].title.values
-#     print(f'{"=" * 20}')
-#     print("\n".join(title for title in res))
-#
-#
-# sent_sub = sentiment_df.groupby('label').sample(n=5, random_state=7)
-#
-# print("POSITIVE")
-# news_title_output(sent_sub, "pos")
-#
-# print("NEGATIVE")
-# news_title_output(sent_sub, "neg")
-#
-# print("NEUTRAL")
-# news_title_output(sent_sub, "neu")
 
 # ---------- To create a word cloud ---------#
 # ---------- Tokenization ----------#
 
-stop_words = stopwords.words('english')
-print(stop_words)
+stop_words = stopwords.words('english')  # Gathering words to be removed
 
 
-def custom_tokenize(text):
+def custom_tokenize(text):  # Function to create tokens
     text = text.replace("'", "").replace("-", "").lower()  # removes single quotes and dashes
 
     # Splits words
     tk = nltk.tokenize.RegexpTokenizer(r'\w+')
     tokens = tk.tokenize(text)
 
-    # removes stop words
+    # Removing stop words
     wrds = [w for w in tokens if not w in stop_words]
     return wrds
 
 
-def tokens_2_wrds(df, label):
+def tokens_2_wrds(df, label):  # Function to create a list of relevant tokens
     titles = df[df['label'] == label].title
     tokens = titles.apply(custom_tokenize)
     wrds = list(chain.from_iterable(tokens))
     return wrds
 
 
-pos_wrds = tokens_2_wrds(sentiment_df, 'pos')
-neg_wrds = tokens_2_wrds(sentiment_df, 'neg')
+pos_wrds = tokens_2_wrds(sentiment_df, 'pos')  # List of positive tokens
+neg_wrds = tokens_2_wrds(sentiment_df, 'neg')  # List of negative tokens
 
-pos_freq = nltk.FreqDist(pos_wrds)
-neg_freq = nltk.FreqDist(neg_wrds)
-# pprint(pos_freq.most_common(20))
-# pprint(neg_freq.most_common(20))
+pos_freq = nltk.FreqDist(pos_wrds)  # Counting the frequency of positive tokens
+neg_freq = nltk.FreqDist(neg_wrds)  # Counting the frequency of negative tokens
 
 
-def color_gen(col):
+# ---------- Word Cloud ----------#
+# ---------- Assigning Color to Font in Word Cloud ----------#
+def color_gen(col):  # Function to generate color
     color1 = col
-    r, g, b = colors.to_rgb(color1)        # red, green, blue
+    r, g, b = colors.to_rgb(color1)
     h, l, s = colorsys.rgb_to_hls(r, g, b)
     return 'hsl(' + str(h*360) + ', 100%%, %d%%)'
 
 
+# Assigning respective hsl values of the color
 hsl_val = color_gen('xkcd:blood red')
 hsl_val2 = color_gen('xkcd:navy blue')
 
 
+# Functions to create a color gradient
 def hsl_color_func(word, font_size, position, orientation, random_state=None, **kwargs):
     return hsl_val % np.random.randint(0, 100)
 
@@ -192,26 +152,31 @@ def hsl_color_func2(word, font_size, position, orientation, random_state=None, *
     return hsl_val2 % np.random.randint(0, 100)
 
 
-wc_pos = WordCloud(
+# ---------- Generation of Word Cloud ----------#
+
+wc_pos = WordCloud(                 # Word Cloud generation of Positive Sentiments
     background_color='Black',
     max_words=100,
-    color_func=hsl_color_func,
+    color_func=hsl_color_func,      # Assigning Color to Font
     stopwords=stop_words            # Removing common words
 )
 
-wc_neg = WordCloud(
+wc_neg = WordCloud(                 # Word Cloud generation of Negative Sentiments
     background_color='Black',
     max_words=100,
-    color_func=hsl_color_func2,
+    color_func=hsl_color_func2,     # Assigning Color to Font
     stopwords=stop_words            # Removing common words
 )
 
-unique_string = (" ").join(pos_wrds)
-unique_string2 = (" ").join(neg_wrds)
+unique_string = " ".join(pos_wrds)
+unique_string2 = " ".join(neg_wrds)
+
+
+# ----------- Output ----------#
 
 wc_pos.generate(unique_string)
-wc_pos.to_file('pos_output.png')
+wc_pos.to_file('pos_output.png')  # Positive Word Cloud being exported
 
 wc_neg.generate(unique_string2)
-wc_neg.to_file('neg_output.png')
-# sentiment_df.to_csv('sentiment_analysis_data.csv')
+wc_neg.to_file('neg_output.png')  # Negative Word Cloud being exported
+sentiment_df.to_csv('sentiment_analysis_data.csv')  # Polarity Score DataFrame
