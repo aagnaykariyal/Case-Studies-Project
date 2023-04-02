@@ -13,9 +13,9 @@ from nltk.corpus import stopwords
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from nltk.tokenize import word_tokenize, RegexpTokenizer  # tokenize words
 
-nltk.download('vader_lexicon')
-nltk.download('punkt')
-nltk.download('stopwords')
+# nltk.download('vader_lexicon')
+# nltk.download('punkt')
+# nltk.download('stopwords')
 
 # import matplotlib.pyplot as plt
 # %matplotlib inline
@@ -80,4 +80,9 @@ sample_text = 'Fleet is amazing'
 
 sid = SentimentIntensityAnalyzer()
 
-print(sid.polarity_scores(sample_text))
+main_data = [All_Comments, posts]
+sa = []
+for dat in main_data:
+    sa.append(sid.polarity_scores(dat))
+
+print(sa)
