@@ -133,4 +133,4 @@ pprint(count)
 # news_title_output(sent_sub, "neu")
 
 #---------- Tokenization ----------#
-
+sentiment_df.to_csv('sentiment_analysis_data.csv')
