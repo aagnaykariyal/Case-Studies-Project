@@ -1,6 +1,14 @@
 import praw  # Reddit crawler
 import pandas as pd
 import numpy as np
+import seaborn as sns
+import colorsys
+from matplotlib import colors
+import emoji
+import re
+# import en_core_web_sm
+import spacy
+
 
 import datetime as dt
 from pprint import pprint
@@ -11,23 +19,18 @@ from praw.models import MoreComments
 import nltk
 from nltk.corpus import stopwords
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
-from nltk.tokenize import word_tokenize, RegexpTokenizer  # tokenize words
+from nltk.tokenize import RegexpTokenizer  # tokenize words
 
+# ------ Downloading datasets ------#
 # nltk.download('vader_lexicon')
 # nltk.download('punkt')
 # nltk.download('stopwords')
 
 import matplotlib.pyplot as plt
-# %matplotlib inline
 plt.rcParams["figure.figsize"] = (10, 8) # default plot size
-import seaborn as sns
 sns.set(style='whitegrid', palette='Dark2')
 
-from wordcloud import WordCloud
-import emoji
-import re
-# import en_core_web_sm
-import spacy
+from wordcloud import WordCloud, ImageColorGenerator
 
 # ------------- End of Libraries ---------------#
 
@@ -90,9 +93,11 @@ for dat in main_data:
     sa.append(sc)
 
 print('The amount of responses = ', len(sa))
-
 pprint(sa[:3])
+
 sentiment_df = pd.DataFrame.from_records(sa)
+sentiment_df['title'] = main_data
+pprint(sentiment_df)
 
 THRESHOLD = 0.2
 conditions = [
@@ -110,18 +115,19 @@ count = sentiment_df.label.value_counts()
 pprint(count)
 
 
-
 # sns.histplot(sentiment_df.label)
 
-#------ This code was used to check if the sentiment was accurate ------#
+# ------ This code was used to check if the sentiment was accurate ------#
 
-# sentiment_df['title'] = main_data
+#
+#
 # def news_title_output(df, label):
 #     res = df[df['label'] == label].title.values
 #     print(f'{"=" * 20}')
 #     print("\n".join(title for title in res))
 #
-# sent_sub = sentiment_df.groupby('label').sample(n = 5, random_state = 7)
+#
+# sent_sub = sentiment_df.groupby('label').sample(n=5, random_state=7)
 #
 # print("POSITIVE")
 # news_title_output(sent_sub, "pos")
@@ -132,5 +138,80 @@ pprint(count)
 # print("NEUTRAL")
 # news_title_output(sent_sub, "neu")
 
-#---------- Tokenization ----------#
-sentiment_df.to_csv('sentiment_analysis_data.csv')
+# ---------- To create a word cloud ---------#
+# ---------- Tokenization ----------#
+
+stop_words = stopwords.words('english')
+print(stop_words)
+
+
+def custom_tokenize(text):
+    text = text.replace("'", "").replace("-", "").lower()  # removes single quotes and dashes
+
+    # Splits words
+    tk = nltk.tokenize.RegexpTokenizer(r'\w+')
+    tokens = tk.tokenize(text)
+
+    # removes stop words
+    wrds = [w for w in tokens if not w in stop_words]
+    return wrds
+
+
+def tokens_2_wrds(df, label):
+    titles = df[df['label'] == label].title
+    tokens = titles.apply(custom_tokenize)
+    wrds = list(chain.from_iterable(tokens))
+    return wrds
+
+
+pos_wrds = tokens_2_wrds(sentiment_df, 'pos')
+neg_wrds = tokens_2_wrds(sentiment_df, 'neg')
+
+pos_freq = nltk.FreqDist(pos_wrds)
+neg_freq = nltk.FreqDist(neg_wrds)
+# pprint(pos_freq.most_common(20))
+# pprint(neg_freq.most_common(20))
+
+
+def color_gen(col):
+    color1 = col
+    r, g, b = colors.to_rgb(color1)        # red, green, blue
+    h, l, s = colorsys.rgb_to_hls(r, g, b)
+    return 'hsl(' + str(h*360) + ', 100%%, %d%%)'
+
+
+hsl_val = color_gen('xkcd:blood red')
+hsl_val2 = color_gen('xkcd:navy blue')
+
+
+def hsl_color_func(word, font_size, position, orientation, random_state=None, **kwargs):
+    return hsl_val % np.random.randint(0, 100)
+
+
+def hsl_color_func2(word, font_size, position, orientation, random_state=None, **kwargs):
+    return hsl_val2 % np.random.randint(0, 100)
+
+
+wc_pos = WordCloud(
+    background_color='Black',
+    max_words=100,
+    color_func=hsl_color_func,
+    stopwords=stop_words            # Removing common words
+)
+
+wc_neg = WordCloud(
+    background_color='Black',
+    max_words=100,
+    color_func=hsl_color_func2,
+    stopwords=stop_words            # Removing common words
+)
+
+unique_string = (" ").join(pos_wrds)
+unique_string2 = (" ").join(neg_wrds)
+
+wc_pos.generate(unique_string)
+wc_pos.to_file('pos_output.png')
+
+wc_neg.generate(unique_string2)
+wc_neg.to_file('neg_output.png')
+# sentiment_df.to_csv('sentiment_analysis_data.csv')
