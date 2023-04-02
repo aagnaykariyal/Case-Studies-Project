@@ -76,13 +76,21 @@ for sid in sub_id:
 print('Total posts scraped = ', len(posts))
 print('Total comments scraped = ', (len(All_Comments)))
 
-sample_text = 'Fleet is amazing'
-
 sid = SentimentIntensityAnalyzer()
 
-main_data = [All_Comments, posts]
+main_data = []
+for data in All_Comments:
+    main_data.append(data)
+for data in posts:
+    main_data.append(data)
+
 sa = []
 for dat in main_data:
-    sa.append(sid.polarity_scores(dat))
+    sc = sid.polarity_scores(dat)
+    sa.append(sc)
 
-print(sa)
+print('The amount of responses = ', len(sa))
+
+pprint(sa[:3])
+sentiment_df = pd.DataFrame.from_records(sa)
+sentiment_df.head()
