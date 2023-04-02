@@ -17,11 +17,11 @@ from nltk.tokenize import word_tokenize, RegexpTokenizer  # tokenize words
 # nltk.download('punkt')
 # nltk.download('stopwords')
 
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 # %matplotlib inline
-# plt.rcParams["figure.figsize"] = (10, 8) # default plot size
-# import seaborn as sns
-# sns.set(style='whitegrid', palette='Dark2')
+plt.rcParams["figure.figsize"] = (10, 8) # default plot size
+import seaborn as sns
+sns.set(style='whitegrid', palette='Dark2')
 
 from wordcloud import WordCloud
 import emoji
@@ -93,4 +93,44 @@ print('The amount of responses = ', len(sa))
 
 pprint(sa[:3])
 sentiment_df = pd.DataFrame.from_records(sa)
-sentiment_df.head()
+
+THRESHOLD = 0.2
+conditions = [
+    (sentiment_df['compound'] <= -THRESHOLD),
+    ((sentiment_df['compound'] > -THRESHOLD) & (sentiment_df['compound'] < THRESHOLD)),
+    (sentiment_df['compound'] >= THRESHOLD),
+]
+
+values = ['neg', 'neu', 'pos']
+sentiment_df['label'] = np.select(conditions, values)
+# nums = np.select(conditions, values)
+# pprint(sentiment_df)
+
+count = sentiment_df.label.value_counts()
+pprint(count)
+
+
+
+# sns.histplot(sentiment_df.label)
+
+#------ This code was used to check if the sentiment was accurate ------#
+
+# sentiment_df['title'] = main_data
+# def news_title_output(df, label):
+#     res = df[df['label'] == label].title.values
+#     print(f'{"=" * 20}')
+#     print("\n".join(title for title in res))
+#
+# sent_sub = sentiment_df.groupby('label').sample(n = 5, random_state = 7)
+#
+# print("POSITIVE")
+# news_title_output(sent_sub, "pos")
+#
+# print("NEGATIVE")
+# news_title_output(sent_sub, "neg")
+#
+# print("NEUTRAL")
+# news_title_output(sent_sub, "neu")
+
+#---------- Tokenization ----------#
+
